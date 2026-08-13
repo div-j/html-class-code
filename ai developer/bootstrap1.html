@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bistro Delight | Delicious Dining Experience</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <style>
+    /* Custom Restaurant Theme Styles */
+    :root {
+      --brand-accent: #d97706;
+      --brand-dark: #1f2937;
+    }
+    .bg-dark-custom {
+      background-color: var(--brand-dark);
+    }
+    .text-accent {
+      color: var(--brand-accent);
+    }
+    .btn-accent {
+      background-color: var(--brand-accent);
+      color: white;
+      border: none;
+    }
+    .btn-accent:hover {
+      background-color: #b45309;
+      color: white;
+    }
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+                  url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      min-height: 80vh;
+    }
+  </style>
+</head>
+<body class="bg-light">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom py-3 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#"><i class="bi bi-egg-fried text-accent me-2"></i>Bistro Delight</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto fs-5">
+            <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center text-white pt-5">
+      <div class="container">
+        <h1 class="display-2 fw-bold text-uppercase mb-3">Taste the Perfection</h1>
+        <p class="lead mb-4 fs-4">Handcrafted meals made with fresh, locally-sourced ingredients.</p>
+        <a href="#menu" class="btn btn-accent btn-lg px-4 py-2 fs-5 rounded-pill">Explore Our Menu</a>
+      </div>
+    </section>
+
+    <section id="menu" class="py-5">
+      <div class="container py-4">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold">Our Chef's Menu</h2>
+          <div class="border-top border-3 border-warning w-25 mx-auto mt-2 mb-3"></div>
+          <p class="text-muted">A selection of our most popular gourmet dishes</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Gourmet Salad">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h3 class="h5 card-title fw-bold mb-0">Mediterranean Bowl</h3>
+                  <span class="badge bg-warning text-dark fs-6">$14.99</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Fresh quinoa, avocado, cherry tomatoes, cucumbers, and tangy feta cheese with lemon vinaigrette.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Smokey Ribs">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h3 class="h5 card-title fw-bold mb-0">BBQ Ribeye Steak</h3>
+                  <span class="badge bg-warning text-dark fs-6">$28.50</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Prime 12oz ribeye grilled over open flame, served with garlic herb butter and roasted asparagus.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0">
+              <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Chocolate Lava Cake">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h3 class="h5 card-title fw-bold mb-0">Molten Chocolate Cake</h3>
+                  <span class="badge bg-warning text-dark fs-6">$9.50</span>
+                </div>
+                <p class="card-text text-muted flex-grow-1">Warm dark chocolate cake with a molten center, served alongside rich Madagascar vanilla bean gelato.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-5 bg-white">
+      <div class="container py-4">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded-4 shadow" alt="Restaurant Interior">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="display-6 fw-bold mb-3">Our Culinary Story</h2>
+            <p class="lead text-muted">Founded in 2015, Bistro Delight started with a simple vision: bringing authentic recipes made from scratch to our community.</p>
+            <p class="text-muted">Our master chefs merge culinary traditions with contemporary innovation. Every plate is crafted with attention to detail, passion, and the finest seasonal ingredients sourced from local farms.</p>
+            <a href="#contact" class="btn btn-outline-dark rounded-pill px-4">Book a Table</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card shadow border-0 p-4 p-md-5">
+              <h2 class="display-6 fw-bold text-center mb-4">Contact & Reservations</h2>
+              <form>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label font-weight-bold">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="john@example.com" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-label">Special Requests / Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Let us know about dietary needs or seating preferences..."></textarea>
+                  </div>
+                  <div class="col-12 text-center mt-4">
+                    <button type="submit" class="btn btn-accent btn-lg rounded-pill px-5">Submit Request</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark-custom text-white py-4 border-top border-secondary">
+    <div class="container text-center">
+      <p class="mb-2">&copy; 2026 Bistro Delight. All rights reserved.</p>
+      <div class="fs-4">
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter-x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
