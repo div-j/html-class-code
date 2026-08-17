@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App Dashboard (Simple Version)</title>
+  <style>
+    /* ========== BASIC RESET & BODY ========== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f7f9fb;
+      color: #191c1e;
+      line-height: 1.5;
+      padding-bottom: 80px; /* space for bottom nav on mobile */
+    }
+
+    /* ========== HELPER CLASSES ========== */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+
+    .rounded {
+      border-radius: 16px;
+    }
+
+    .shadow {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    /* ========== HEADER (Mobile) ========== */
+    .header-mobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: white;
+      border-bottom: 1px solid #e0e3e5;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 2px solid #4648d4;
+      object-fit: cover;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #4648d4;
+    }
+
+    .level-badge {
+      background: #e6e8ea;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    /* ========== GREETING ========== */
+    .greeting {
+      margin: 24px 0 16px;
+    }
+
+    .greeting h2 {
+      font-size: 24px;
+      margin-bottom: 4px;
+    }
+
+    .greeting p {
+      color: #464554;
+      font-size: 16px;
+    }
+
+    /* ========== FEATURED QUIZ CARD ========== */
+    .featured-card {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-bottom: 24px;
+      border: 1px solid #e0e3e5;
+      position: relative;
+    }
+
+    .progress-bar {
+      height: 4px;
+      background: #e0e3e5;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 30%;
+      background: #4648d4;
+    }
+
+    .featured-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .featured-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 16px;
+      background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+      color: white;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #6bff8f;
+      color: #005321;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 8px;
+    }
+
+    .featured-content h3 {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    .featured-meta {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    /* ========== DAILY CHALLENGE ========== */
+    .daily-challenge {
+      background: #6063ee;
+      color: white;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .daily-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .fire-icon {
+      width: 48px;
+      height: 48px;
+      background: white;
+      color: #4648d4;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .daily-challenge h4 {
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    .daily-challenge p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .btn-play {
+      background: white;
+      color: #4648d4;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .btn-play:hover {
+      background: #f0f0ff;
+    }
+
+    /* ========== CATEGORIES ========== */
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .section-header h3 {
+      font-size: 20px;
+    }
+
+    .view-all {
+      color: #4648d4;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .category-card {
+      background: white;
+      border: 1px solid #e0e3e5;
+      border-radius: 16px;
+      padding: 20px 12px;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .category-card:hover {
+      border-color: #4648d4;
+      background: #f9f9ff;
+    }
+
+    .category-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 8px;
+      font-size: 22px;
+    }
+
+    .science   { background: #e1e0ff; color: #07006c; }
+    .history   { background: #ffddb8; color: #2a1700; }
+    .tech      { background: #6bff8f; color: #005321; }
+    .art       { background: #ffdad6; color: #93000a; }
+
+    .category-card span {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    /* ========== BOTTOM NAVIGATION (Mobile) ========== */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      border-top: 1px solid #e0e3e5;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+      z-index: 20;
+    }
+
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: #464554;
+      font-size: 12px;
+      padding: 6px 16px;
+      border-radius: 20px;
+    }
+
+    .nav-item.active {
+      background: #6063ee;
+      color: white;
+    }
+
+    .nav-item span {
+      font-size: 20px;
+      margin-bottom: 2px;
+    }
+
+    /* ========== DESKTOP HEADER (hidden on mobile) ========== */
+    .header-desktop {
+      display: none;
+    }
+
+    /* ========== RESPONSIVE (Tablet & Desktop) ========== */
+    @media (min-width: 768px) {
+      body {
+        padding-bottom: 0;
+      }
+
+      .header-mobile {
+        display: none;
+      }
+
+      .header-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 16px 24px;
+        background: white;
+        border-bottom: 1px solid #e0e3e5;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+
+      .desktop-nav a {
+        margin-right: 16px;
+        text-decoration: none;
+        color: #464554;
+        font-weight: 600;
+        padding: 6px 12px;
+        border-radius: 8px;
+      }
+
+      .desktop-nav a.active {
+        background: #e6e8ea;
+        color: #4648d4;
+      }
+
+      .daily-challenge {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .btn-play {
+        width: auto;
+      }
+
+      .categories {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .bottom-nav {
+        display: none;
+      }
+
+      .featured-image {
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========== MOBILE HEADER ========== -->
+  <header class="header-mobile">
+    <div class="header-left">
+      <img class="avatar" src="https://i.pravatar.cc/100?img=12" alt="User avatar">
+      <div class="logo">QuizMaster</div>
+    </div>
+    <div class="level-badge">Lvl 12 • 450 Coins</div>
+  </header>
+
+  <!-- ========== DESKTOP HEADER ========== -->
+  <header class="header-desktop">
+    <div style="display: flex; align-items: center; gap: 24px;">
+      <div class="logo">QuizMaster</div>
+      <nav class="desktop-nav">
+        <a href="#" class="active">Home</a>
+        <a href="#">Ranks</a>
+        <a href="#">Profile</a>
+      </nav>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <div class="level-badge">Lvl 12 • 450 Coins</div>
+      <img class="avatar" src="https://i.pravatar.cc/100?img=12" alt="User avatar">
+    </div>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="container">
+
+    <!-- Greeting -->
+    <section class="greeting">
+      <h2>Ready to play, Alex? 👋</h2>
+      <p>Your brain is warmed up. Let's crush today's challenges.</p>
+    </section>
+
+    <!-- Featured Quiz -->
+    <section class="featured-card shadow">
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+      <img class="featured-image" 
+           src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800" 
+           alt="Space Exploration">
+      <div class="featured-content">
+        <span class="badge">Featured Quiz</span>
+        <h3>Journey to the Cosmos</h3>
+        <p class="featured-meta">⏱ 10 mins • 15 Questions</p>
+      </div>
+    </section>
+
+    <!-- Daily Challenge -->
+    <section class="daily-challenge">
+      <div class="daily-left">
+        <div class="fire-icon">🔥</div>
+        <div>
+          <h4>Daily Brain Teaser</h4>
+          <p>Solve today's puzzle to earn 50 bonus coins.</p>
+        </div>
+      </div>
+      <button class="btn-play">Play Now</button>
+    </section>
+
+    <!-- Categories -->
+    <section>
+      <div class="section-header">
+        <h3>Explore Categories</h3>
+        <a href="#" class="view-all">View All</a>
+      </div>
+
+      <div class="categories">
+        <div class="category-card">
+          <div class="category-icon science">🔬</div>
+          <span>Science</span>
+        </div>
+        <div class="category-card">
+          <div class="category-icon history">📜</div>
+          <span>History</span>
+        </div>
+        <div class="category-card">
+          <div class="category-icon tech">💻</div>
+          <span>Technology</span>
+        </div>
+        <div class="category-card">
+          <div class="category-icon art">🎨</div>
+          <span>Art</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== BOTTOM NAV (Mobile only) ========== -->
+  <nav class="bottom-nav">
+    <a href="#" class="nav-item active">
+      <span>🏠</span>
+      Home
+    </a>
+    <a href="#" class="nav-item">
+      <span>🏆</span>
+      Ranks
+    </a>
+    <a href="#" class="nav-item">
+      <span>👤</span>
+      Profile
+    </a>
+  </nav>
+
+</body>
+</html>
