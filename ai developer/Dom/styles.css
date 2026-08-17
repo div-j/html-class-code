@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+}
+
+.shopping-cart {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.total-container {
+  text-align: right;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #fafafa;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.unit-price {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-controls i {
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #3498db;
+  transition: color 0.2s;
+}
+
+.quantity-controls i:hover {
+  color: #1d6fa5;
+}
+
+.quantity {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.action-buttons i {
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: color 0.2s;
+}
+
+.fa-trash-alt {
+  color: #e74c3c;
+}
+
+.fa-trash-alt:hover {
+  color: #c0392b;
+}
+
+/* Heart button normal and liked state */
+.fa-heart {
+  color: #cccccc;
+}
+
+.fa-heart.liked {
+  color: #e74c3c;
+}

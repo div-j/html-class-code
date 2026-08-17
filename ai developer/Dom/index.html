@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="shopping-cart">
+    <h1 class="title">Shopping Cart</h1>
+
+    <!-- Total Price Display -->
+    <div class="total-container">
+      <h2>Total: <span class="total">0 $</span></h2>
+    </div>
+
+    <div class="list-products">
+      
+      <!-- Item 1 -->
+      <div class="card">
+        <div class="card-body">
+          <img src="https://via.placeholder.com/100" alt="Product 1" class="product-img">
+          <span class="product-name">Baskets</span>
+          <span class="unit-price">100 $</span>
+          <div class="quantity-controls">
+            <i class="fas fa-minus-circle"></i>
+            <span class="quantity">1</span>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+          <div class="action-buttons">
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="card">
+        <div class="card-body">
+          <img src="https://via.placeholder.com/100" alt="Product 2" class="product-img">
+          <span class="product-name">Socks</span>
+          <span class="unit-price">20 $</span>
+          <div class="quantity-controls">
+            <i class="fas fa-minus-circle"></i>
+            <span class="quantity">2</span>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+          <div class="action-buttons">
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="card">
+        <div class="card-body">
+          <img src="https://via.placeholder.com/100" alt="Product 3" class="product-img">
+          <span class="product-name">Bag</span>
+          <span class="unit-price">50 $</span>
+          <div class="quantity-controls">
+            <i class="fas fa-minus-circle"></i>
+            <span class="quantity">1</span>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+          <div class="action-buttons">
+            <i class="fas fa-trash-alt"></i>
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
