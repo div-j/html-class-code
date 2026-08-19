@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizMaster Dashboard - Bootstrap</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f7f9fb;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+
+    /* Sticky headers */
+    .sticky-top {
+      z-index: 1030;
+    }
+
+    /* Featured card image height */
+    .featured-img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    @media (min-width: 768px) {
+      .featured-img {
+        height: 240px;
+      }
+    }
+
+    /* Category cards */
+    .category-card {
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+    .category-card:hover {
+      border-color: #4648d4 !important;
+      background-color: #f8f9ff;
+      transform: translateY(-2px);
+    }
+
+    /* Bottom navigation */
+    .bottom-nav {
+      box-shadow: 0 -4px 12px rgba(0,0,0,0.08);
+    }
+
+    .nav-item-active {
+      background-color: #6063ee;
+      color: white !important;
+      border-radius: 50px;
+      padding: 6px 16px !important;
+    }
+
+    /* Small visual polish */
+    .progress {
+      height: 4px;
+    }
+    .rounded-4 {
+      border-radius: 1rem !important;
+    }
+    .rounded-5 {
+      border-radius: 1.25rem !important;
+    }
+  </style>
+</head>
+<body class="pb-5 pb-md-0">
+
+  <!-- ===================== MOBILE HEADER ===================== -->
+  <header class="d-md-none sticky-top bg-white border-bottom py-2 px-3">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center gap-2">
+        <img src="https://i.pravatar.cc/100?img=12" 
+             alt="Avatar" 
+             class="rounded-circle border border-2 border-primary" 
+             width="40" height="40">
+        <h1 class="h5 mb-0 fw-bold text-primary">QuizMaster</h1>
+      </div>
+      <span class="badge bg-light text-dark rounded-pill px-3 py-2 fw-semibold">
+        Lvl 12 • 450 Coins
+      </span>
+    </div>
+  </header>
+
+  <!-- ===================== DESKTOP HEADER ===================== -->
+  <header class="d-none d-md-block sticky-top bg-white border-bottom py-3">
+    <div class="container" style="max-width: 1000px;">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-4">
+          <h1 class="h4 mb-0 fw-bold text-primary">QuizMaster</h1>
+          <nav class="d-flex gap-2">
+            <a href="#" class="nav-link px-3 py-1 rounded-3 bg-light text-primary fw-semibold">Home</a>
+            <a href="#" class="nav-link px-3 py-1 rounded-3 text-secondary">Ranks</a>
+            <a href="#" class="nav-link px-3 py-1 rounded-3 text-secondary">Profile</a>
+          </nav>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <span class="badge bg-light text-dark rounded-pill px-3 py-2 fw-semibold">
+            Lvl 12 • 450 Coins
+          </span>
+          <img src="https://i.pravatar.cc/100?img=12" 
+               alt="Avatar" 
+               class="rounded-circle border border-2 border-primary" 
+               width="40" height="40">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main class="container py-4" style="max-width: 800px;">
+
+    <!-- Greeting -->
+    <section class="mb-4">
+      <h2 class="h3 fw-bold mb-1">Ready to play, Alex? 👋</h2>
+      <p class="text-secondary mb-0">Your brain is warmed up. Let's crush today's challenges.</p>
+    </section>
+
+    <!-- Featured Quiz Card -->
+    <section class="card border-0 shadow-sm rounded-5 overflow-hidden mb-4">
+      <!-- Progress bar -->
+      <div class="progress rounded-0">
+        <div class="progress-bar bg-primary" style="width: 30%;"></div>
+      </div>
+
+      <div class="position-relative">
+        <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800" 
+             class="card-img-top featured-img" 
+             alt="Space Exploration">
+
+        <!-- Gradient overlay + content -->
+        <div class="position-absolute bottom-0 start-0 end-0 p-3 text-white"
+             style="background: linear-gradient(to top, rgba(0,0,0,0.75), transparent);">
+          <span class="badge bg-success-subtle text-success-emphasis rounded-pill mb-2">
+            Featured Quiz
+          </span>
+          <h3 class="h4 fw-bold mb-1">Journey to the Cosmos</h3>
+          <p class="mb-0 small opacity-90">
+            <i class="bi bi-clock"></i> 10 mins • 15 Questions
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Daily Challenge -->
+    <section class="card border-0 rounded-5 p-4 mb-4 text-white" 
+             style="background-color: #6063ee;">
+      <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
+        <div class="d-flex align-items-center gap-3">
+          <div class="bg-white text-primary rounded-3 d-flex align-items-center justify-content-center"
+               style="width: 48px; height: 48px;">
+            <i class="bi bi-fire fs-4"></i>
+          </div>
+          <div>
+            <h4 class="h5 fw-bold mb-1">Daily Brain Teaser</h4>
+            <p class="mb-0 opacity-90">Solve today's puzzle to earn 50 bonus coins.</p>
+          </div>
+        </div>
+        <button class="btn btn-light text-primary fw-bold px-4 py-2 rounded-4">
+          Play Now
+        </button>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section>
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="h5 fw-bold mb-0">Explore Categories</h3>
+        <a href="#" class="text-primary text-decoration-none fw-semibold small">View All</a>
+      </div>
+
+      <div class="row g-3">
+        <!-- Science -->
+        <div class="col-6 col-md-3">
+          <div class="card category-card h-100 border rounded-4 text-center p-3">
+            <div class="mx-auto mb-2 rounded-circle d-flex align-items-center justify-content-center"
+                 style="width: 48px; height: 48px; background: #e1e0ff; color: #07006c;">
+              <i class="bi bi-flask fs-5"></i>
+            </div>
+            <span class="fw-semibold">Science</span>
+          </div>
+        </div>
+
+        <!-- History -->
+        <div class="col-6 col-md-3">
+          <div class="card category-card h-100 border rounded-4 text-center p-3">
+            <div class="mx-auto mb-2 rounded-circle d-flex align-items-center justify-content-center"
+                 style="width: 48px; height: 48px; background: #ffddb8; color: #2a1700;">
+              <i class="bi bi-book fs-5"></i>
+            </div>
+            <span class="fw-semibold">History</span>
+          </div>
+        </div>
+
+        <!-- Technology -->
+        <div class="col-6 col-md-3">
+          <div class="card category-card h-100 border rounded-4 text-center p-3">
+            <div class="mx-auto mb-2 rounded-circle d-flex align-items-center justify-content-center"
+                 style="width: 48px; height: 48px; background: #6bff8f; color: #005321;">
+              <i class="bi bi-cpu fs-5"></i>
+            </div>
+            <span class="fw-semibold">Technology</span>
+          </div>
+        </div>
+
+        <!-- Art -->
+        <div class="col-6 col-md-3">
+          <div class="card category-card h-100 border rounded-4 text-center p-3">
+            <div class="mx-auto mb-2 rounded-circle d-flex align-items-center justify-content-center"
+                 style="width: 48px; height: 48px; background: #ffdad6; color: #93000a;">
+              <i class="bi bi-palette fs-5"></i>
+            </div>
+            <span class="fw-semibold">Art</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== BOTTOM NAV (Mobile only) ===================== -->
+  <nav class="fixed-bottom d-md-none bg-white border-top bottom-nav py-2">
+    <div class="d-flex justify-content-around align-items-center">
+      <a href="#" class="nav-link text-center nav-item-active d-flex flex-column align-items-center">
+        <i class="bi bi-house-fill fs-5"></i>
+        <small class="mt-1">Home</small>
+      </a>
+      <a href="#" class="nav-link text-secondary text-center d-flex flex-column align-items-center">
+        <i class="bi bi-trophy fs-5"></i>
+        <small class="mt-1">Ranks</small>
+      </a>
+      <a href="#" class="nav-link text-secondary text-center d-flex flex-column align-items-center">
+        <i class="bi bi-person fs-5"></i>
+        <small class="mt-1">Profile</small>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
