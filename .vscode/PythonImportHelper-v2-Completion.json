@@ -1,0 +1,54 @@
+[
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "ai developer.python.ai-assistance.main",
+        "description": "ai developer.python.ai-assistance.main",
+        "peekOfCode": "api_key = os.getenv(\"GROQ_API_KEY\")\nif not api_key:\n    raise ValueError(\"GROQ_API_KEY not found in .env file\")\nclient = Groq(\n    api_key=api_key,\n)\nchat_completion = client.chat.completions.create(\n    messages=[\n         {\n        \"role\": \"system\",",
+        "detail": "ai developer.python.ai-assistance.main",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ai developer.python.ai-assistance.main",
+        "description": "ai developer.python.ai-assistance.main",
+        "peekOfCode": "client = Groq(\n    api_key=api_key,\n)\nchat_completion = client.chat.completions.create(\n    messages=[\n         {\n        \"role\": \"system\",\n        \"content\": \"you are a study assistant\"\n      },\n        {",
+        "detail": "ai developer.python.ai-assistance.main",
+        "documentation": {}
+    },
+    {
+        "label": "chat_completion",
+        "kind": 5,
+        "importPath": "ai developer.python.ai-assistance.main",
+        "description": "ai developer.python.ai-assistance.main",
+        "peekOfCode": "chat_completion = client.chat.completions.create(\n    messages=[\n         {\n        \"role\": \"system\",\n        \"content\": \"you are a study assistant\"\n      },\n        {\n            \"role\": \"user\",\n            \"content\": \"hi\",\n        }",
+        "detail": "ai developer.python.ai-assistance.main",
+        "documentation": {}
+    }
+]
