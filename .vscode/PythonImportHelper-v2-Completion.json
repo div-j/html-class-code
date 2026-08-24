@@ -8,6 +8,38 @@
         "documentation": {}
     },
     {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationError",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimitError",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -22,6 +54,102 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "call_llm",
+        "importPath": "app.services.ai",
+        "description": "app.services.ai",
+        "isExtraImport": true,
+        "detail": "app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
         "documentation": {}
     },
     {
@@ -49,6 +177,168 @@
         "description": "ai developer.python.ai-assistance.main",
         "peekOfCode": "chat_completion = client.chat.completions.create(\n    messages=[\n         {\n        \"role\": \"system\",\n        \"content\": \"you are a study assistant\"\n      },\n        {\n            \"role\": \"user\",\n            \"content\": \"hi\",\n        }",
         "detail": "ai developer.python.ai-assistance.main",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.app.routers.chat",
+        "description": "ai developer.python.fastapi.app.routers.chat",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str = Field(..., default=\"\", min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:",
+        "detail": "ai developer.python.fastapi.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.app.routers.chat",
+        "description": "ai developer.python.fastapi.app.routers.chat",
+        "peekOfCode": "class ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:\n        raise HTTPException(\n        status_code=400,",
+        "detail": "ai developer.python.fastapi.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.app.routers.chat",
+        "description": "ai developer.python.fastapi.app.routers.chat",
+        "peekOfCode": "def chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:\n        raise HTTPException(\n        status_code=400,\n        detail=\"Message cannot be empty.\"\n        )\n    result = call_llm(clean_message)\n    return ChatResponse(**result)",
+        "detail": "ai developer.python.fastapi.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.app.routers.chat",
+        "description": "ai developer.python.fastapi.app.routers.chat",
+        "peekOfCode": "router = APIRouter(prefix=\"/chat\", tags=[\"chat\"])\nclass ChatRequest(BaseModel):\n    message: str = Field(..., default=\"\", min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()",
+        "detail": "ai developer.python.fastapi.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "call_llm",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.app.services.ai",
+        "description": "ai developer.python.fastapi.app.services.ai",
+        "peekOfCode": "def call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {\n                        \"role\": \"system\",\n                        \"content\": \"you are a study assistant\"\n                      },\n                        {\n                            \"role\": \"user\",",
+        "detail": "ai developer.python.fastapi.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.app.services.ai",
+        "description": "ai developer.python.fastapi.app.services.ai",
+        "peekOfCode": "api_key = os.getenv(\"GROQ_API_KEY\")\nif not api_key:\n    raise ValueError(\"GROQ_API_KEY not found in environment variables\")\n# Initialize the Groq client\nclient = Groq(api_key=api_key)\ndef call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {",
+        "detail": "ai developer.python.fastapi.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.app.services.ai",
+        "description": "ai developer.python.fastapi.app.services.ai",
+        "peekOfCode": "client = Groq(api_key=api_key)\ndef call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {\n                        \"role\": \"system\",\n                        \"content\": \"you are a study assistant\"\n                      },\n                        {",
+        "detail": "ai developer.python.fastapi.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "QuizRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "class QuizRequest(BaseModel):\n    topic: str = Field(..., min_length=2, max_length=100)\n    num_questions: int = Field(default=3, ge=1, le=10)\n@app.post(\"/quiz\")\ndef quiz(request: QuizRequest):\n    questions = []\n    for index in range(1, request.num_questions + 1):\n        questions.append({\n            \"question\": f\"Question {index} about {request.topic}\",\n            \"options\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"],",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "SummariseRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "class SummariseRequest(BaseModel):\n    text: str = Field(..., min_length=20, max_length=5000)\n    max_bullets: int = Field(default=3, ge=1, le=5)\n@app.post(\"/summarise\")\ndef summarise(request: SummariseRequest):\n    words = request.text.split()\n    return {\n        \"summary\": [",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "FlashcardRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "class FlashcardRequest(BaseModel):\n    topic: str = Field(..., min_length=2, max_length=100)\n    count: int = Field(default=3, ge=1, le=10)\nclass Flashcard(BaseModel):\n    front: str\n    back: str\nclass FlashcardResponse(BaseModel):\n    topic: str\n    flashcards: list[Flashcard]\n@app.post(\"/flashcards\", response_model=FlashcardResponse)",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "Flashcard",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "class Flashcard(BaseModel):\n    front: str\n    back: str\nclass FlashcardResponse(BaseModel):\n    topic: str\n    flashcards: list[Flashcard]\n@app.post(\"/flashcards\", response_model=FlashcardResponse)\ndef create_flashcards(request: FlashcardRequest):\n    clean_topic = request.topic.strip()\n    if not clean_topic:",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "FlashcardResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "class FlashcardResponse(BaseModel):\n    topic: str\n    flashcards: list[Flashcard]\n@app.post(\"/flashcards\", response_model=FlashcardResponse)\ndef create_flashcards(request: FlashcardRequest):\n    clean_topic = request.topic.strip()\n    if not clean_topic:\n        raise HTTPException(\n        status_code=400,\n        detail=\"Topic cannot be empty.\"",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "def health():\n    return{\n        \"status\": \"ok\",\n        \"message\": \"API is running\",\n        \"timestamp\": datetime.now(timezone.utc).isoformat(),\n        \"version\": \"1.0.0\"\n    }\n@app.get(\"/about\")\ndef about():\n    return {",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "def about():\n    return {\n    \"project\": \"My FastAPI backend\",\n    \"purpose\": \"Expose Python features through an API\",\n    \"status\": \"learning backend fundamentals\"\n    }\nclass QuizRequest(BaseModel):\n    topic: str = Field(..., min_length=2, max_length=100)\n    num_questions: int = Field(default=3, ge=1, le=10)\n@app.post(\"/quiz\")",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "quiz",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "def quiz(request: QuizRequest):\n    questions = []\n    for index in range(1, request.num_questions + 1):\n        questions.append({\n            \"question\": f\"Question {index} about {request.topic}\",\n            \"options\": [\"Option A\", \"Option B\", \"Option C\", \"Option D\"],\n            \"answer\": \"Option A\"\n        })\n    return {\n        \"topic\": request.topic,",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "summarise",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "def summarise(request: SummariseRequest):\n    words = request.text.split()\n    return {\n        \"summary\": [\n            \"This is a placeholder summary.\",\n            \"The real summarization logic will be connected later.\"\n        ][:request.max_bullets],\n        \"word_count\": len(words)\n    }",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_flashcards",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "def create_flashcards(request: FlashcardRequest):\n    clean_topic = request.topic.strip()\n    if not clean_topic:\n        raise HTTPException(\n        status_code=400,\n        detail=\"Topic cannot be empty.\"\n        )\n    flashcards = []\n    for index in range(1, request.count + 1):\n        flashcards.append(",
+        "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.app.main",
+        "description": "ai developer.python.fastapi.app.main",
+        "peekOfCode": "app = FastAPI(\ntitle=\"My Backend API\",\ndescription=\"A first FastAPI backend for my project.\",\nversion=\"1.0.0\"\n)\napp.include_router(chat.router)\n@app.get(\"/\")\ndef health():\n    return{\n        \"status\": \"ok\",",
+        "detail": "ai developer.python.fastapi.app.main",
         "documentation": {}
     }
 ]
