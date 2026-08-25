@@ -30,14 +30,12 @@ def get_assistant_reply(user_message: str, history: list[dict] | None = None) ->
     - history: optional list of previous messages 
                (each item: {"role": "user"|"assistant", "content": "..."})
     """
-    user_input = input("Ask a question or type 'exit' to quit: ")
     
     messages = [SYSTEM_PROMPT]
     
     if history:
         messages.extend(history)
 
-    messages.append({"role": "user", "content": user_input})
 
     try:
         response = client.chat.complete(
