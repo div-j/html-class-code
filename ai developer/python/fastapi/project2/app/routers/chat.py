@@ -6,7 +6,7 @@ from app.services.ai import call_llm
 router = APIRouter(prefix="/chat", tags=["chat"])
 
 class ChatRequest(BaseModel):
-    message: str = Field(...,  min_length=1, max_length=2000)
+    message: str = Field(..., min_length=1, max_length=2000)
 
 
 class ChatResponse(BaseModel):
