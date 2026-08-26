@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pytest
+httpx
+pytest-asyncio
+sqlalchemy
+python-jose[cryptography] 
+passlib[bcrypt] 
+python-dotenv 
+pydantic[email]
+mistralai
+grog
+openai
