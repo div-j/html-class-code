@@ -32,6 +32,102 @@
         "documentation": {}
     },
     {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationError",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimitError",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "Groq",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationError",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimitError",
+        "importPath": "groq",
+        "description": "groq",
+        "isExtraImport": true,
+        "detail": "groq",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "load_dotenv",
         "importPath": "dotenv",
         "description": "dotenv",
@@ -54,6 +150,742 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -89,6 +921,303 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "Mistral",
+        "importPath": "mistralai.client",
+        "description": "mistralai.client",
+        "isExtraImport": true,
+        "detail": "mistralai.client",
+        "documentation": {}
+    },
+    {
+        "label": "Mistral",
+        "importPath": "mistralai.client",
+        "description": "mistralai.client",
+        "isExtraImport": true,
+        "detail": "mistralai.client",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -114,6 +1243,54 @@
     },
     {
         "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -129,19 +1306,11 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "call_llm",
+        "importPath": "app.services.ai",
+        "description": "app.services.ai",
         "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timezone",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "app.services.ai",
         "documentation": {}
     },
     {
@@ -180,11 +1349,425 @@
         "documentation": {}
     },
     {
+        "label": "Conversation",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.models.conversation",
+        "description": "ai developer.python.async.app.models.conversation",
+        "peekOfCode": "class Conversation(Base):\n    __tablename__ = \"conversations\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, nullable=True)\n    user_id = Column(Integer, ForeignKey(\"users.id\"), nullable=False)\n    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))\n    owner = relationship(\"User\", back_populates=\"conversations\")\n    messages = relationship(\"Message\", back_populates=\"conversation\", cascade=\"all, delete-orphan\")",
+        "detail": "ai developer.python.async.app.models.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.models.message",
+        "description": "ai developer.python.async.app.models.message",
+        "peekOfCode": "class Message(Base):\n    __tablename__ = \"messages\"\n    id = Column(Integer, primary_key=True, index=True)\n    conversation_id = Column(Integer, ForeignKey(\"conversations.id\"), nullable=False)\n    role = Column(String, nullable=False)          # \"user\" or \"assistant\"\n    content = Column(Text, nullable=False)\n    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))\n    tokens_used = Column(Integer, default=0)\n    conversation = relationship(\"Conversation\", back_populates=\"messages\")",
+        "detail": "ai developer.python.async.app.models.message",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.models.user",
+        "description": "ai developer.python.async.app.models.user",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    email = Column(String, unique=True, index=True, nullable=False)\n    hashed_password = Column(String, nullable=False)\n    is_active = Column(Boolean, default=True)\n    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))\n    conversations = relationship(\"Conversation\", back_populates=\"owner\")",
+        "detail": "ai developer.python.async.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.routers.auth",
+        "description": "ai developer.python.async.app.routers.auth",
+        "peekOfCode": "def register(user_in: UserCreate, db: Session = Depends(get_db)):\n    if get_user_by_email(db, user_in.email):\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    user = User(\n        email=user_in.email,\n        hashed_password= hash_password(user_in.password)\n    )\n    db.add(user)\n    db.commit()\n    db.refresh(user)",
+        "detail": "ai developer.python.async.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.routers.auth",
+        "description": "ai developer.python.async.app.routers.auth",
+        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = get_user_by_email(db, form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Incorrect email or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.email})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "ai developer.python.async.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.routers.auth",
+        "description": "ai developer.python.async.app.routers.auth",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"auth\"])\n@router.post(\"/register\", response_model=UserOut, status_code=201)\ndef register(user_in: UserCreate, db: Session = Depends(get_db)):\n    if get_user_by_email(db, user_in.email):\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    user = User(\n        email=user_in.email,\n        hashed_password= hash_password(user_in.password)\n    )\n    db.add(user)",
+        "detail": "ai developer.python.async.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.routers.chat",
+        "description": "ai developer.python.async.app.routers.chat",
+        "peekOfCode": "def chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:\n        raise HTTPException(\n        status_code=400,\n        detail=\"Message cannot be empty.\"\n        )\n    result = call_llm(clean_message)\n    return ChatResponse(**result)\n#study pack response model",
+        "detail": "ai developer.python.async.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.routers.chat",
+        "description": "ai developer.python.async.app.routers.chat",
+        "peekOfCode": "router = APIRouter(prefix=\"/chat\", tags=[\"chat\"])\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:\n        raise HTTPException(\n        status_code=400,\n        detail=\"Message cannot be empty.\"\n        )\n    result = call_llm(clean_message)",
+        "detail": "ai developer.python.async.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "get_owned_conversation",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.routers.conversations",
+        "description": "ai developer.python.async.app.routers.conversations",
+        "peekOfCode": "def get_owned_conversation(db: Session, conversation_id: int, user: User) -> Conversation:\n    conv = db.query(Conversation).filter(Conversation.id == conversation_id).first()\n    if not conv:\n        raise HTTPException(status_code=404, detail=\"Conversation not found\")\n    if conv.user_id != user.id:\n        raise HTTPException(status_code=403, detail=\"Not allowed to access this conversation\")\n    return conv\n@router.post(\"/\", response_model=ConversationOut, status_code=201)\ndef create_conversation(\n    data: ConversationCreate,",
+        "detail": "ai developer.python.async.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.routers.conversations",
+        "description": "ai developer.python.async.app.routers.conversations",
+        "peekOfCode": "def create_conversation(\n    data: ConversationCreate,\n    db: Session = Depends(get_db),\n    current_user: User = Depends(get_current_user)\n):\n    conv = Conversation(title=data.title or \"New conversation\", user_id=current_user.id)\n    db.add(conv)\n    db.commit()\n    db.refresh(conv)\n    return conv",
+        "detail": "ai developer.python.async.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "get_messages",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.routers.conversations",
+        "description": "ai developer.python.async.app.routers.conversations",
+        "peekOfCode": "def get_messages(\n    conversation_id: int,\n    db: Session = Depends(get_db),\n    current_user: User = Depends(get_current_user)\n):\n    conv = get_owned_conversation(db, conversation_id, current_user)\n    return conv.messages",
+        "detail": "ai developer.python.async.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.routers.conversations",
+        "description": "ai developer.python.async.app.routers.conversations",
+        "peekOfCode": "router = APIRouter(prefix=\"/conversations\", tags=[\"conversations\"])\ndef get_owned_conversation(db: Session, conversation_id: int, user: User) -> Conversation:\n    conv = db.query(Conversation).filter(Conversation.id == conversation_id).first()\n    if not conv:\n        raise HTTPException(status_code=404, detail=\"Conversation not found\")\n    if conv.user_id != user.id:\n        raise HTTPException(status_code=403, detail=\"Not allowed to access this conversation\")\n    return conv\n@router.post(\"/\", response_model=ConversationOut, status_code=201)\ndef create_conversation(",
+        "detail": "ai developer.python.async.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "call_llm",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.services.ai",
+        "description": "ai developer.python.async.app.services.ai",
+        "peekOfCode": "def call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {\n                        \"role\": \"system\",\n                        \"content\": \"you are a study assistant\"\n                      },\n                        {\n                            \"role\": \"user\",",
+        "detail": "ai developer.python.async.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.services.ai",
+        "description": "ai developer.python.async.app.services.ai",
+        "peekOfCode": "api_key = os.getenv(\"GROQ_API_KEY\")\nif not api_key:\n    raise ValueError(\"GROQ_API_KEY not found in environment variables\")\n# Initialize the Groq client\nclient = Groq(api_key=api_key)\ndef call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {",
+        "detail": "ai developer.python.async.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.services.ai",
+        "description": "ai developer.python.async.app.services.ai",
+        "peekOfCode": "client = Groq(api_key=api_key)\ndef call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {\n                        \"role\": \"system\",\n                        \"content\": \"you are a study assistant\"\n                      },\n                        {",
+        "detail": "ai developer.python.async.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "get_cached_reply",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.services.ministralai",
+        "description": "ai developer.python.async.app.services.ministralai",
+        "peekOfCode": "def get_cached_reply(user_message: str) -> str:\n    \"\"\"\n    Cache is temporary (lives only in memory).\n    Database is the permanent source of truth.\n    Only use this for repeated, non-sensitive questions.\n    \"\"\"\n    return get_assistant_reply(user_message)\nasync def generate_summary_async(text: str) -> str:\n    \"\"\"Task 1: Generate summary asynchronously.\"\"\"\n    if client and hasattr(client, \"chat\") and hasattr(client.chat, \"complete_async\"):",
+        "detail": "ai developer.python.async.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.services.ministralai",
+        "description": "ai developer.python.async.app.services.ministralai",
+        "peekOfCode": "api_key = os.environ.get(\"MISTRAL_API_KEY\")\nif not api_key:\n    raise ValueError(\"MISTRAL_API_KEY not set\")\nclient = Mistral(api_key=api_key)\nSYSTEM_PROMPT = {\n    \"role\": \"system\",\n    \"content\": (\n        \"You are a friendly study assistant. \"\n        \"Explain simply, use short sentences, \"\n        \"and end with one practice question.\"",
+        "detail": "ai developer.python.async.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.services.ministralai",
+        "description": "ai developer.python.async.app.services.ministralai",
+        "peekOfCode": "client = Mistral(api_key=api_key)\nSYSTEM_PROMPT = {\n    \"role\": \"system\",\n    \"content\": (\n        \"You are a friendly study assistant. \"\n        \"Explain simply, use short sentences, \"\n        \"and end with one practice question.\"\n    )\n}\nasync def get_assistant_reply(user_message: str, history: list[dict] | None = None) -> str:",
+        "detail": "ai developer.python.async.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.services.ministralai",
+        "description": "ai developer.python.async.app.services.ministralai",
+        "peekOfCode": "SYSTEM_PROMPT = {\n    \"role\": \"system\",\n    \"content\": (\n        \"You are a friendly study assistant. \"\n        \"Explain simply, use short sentences, \"\n        \"and end with one practice question.\"\n    )\n}\nasync def get_assistant_reply(user_message: str, history: list[dict] | None = None) -> str:\n    \"\"\"",
+        "detail": "ai developer.python.async.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.auth",
+        "description": "ai developer.python.async.app.auth",
+        "peekOfCode": "def hash_password(password: str) -> str :\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()\n    expires = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expires})",
+        "detail": "ai developer.python.async.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.auth",
+        "description": "ai developer.python.async.app.auth",
+        "peekOfCode": "def verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()\n    expires = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expires})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=\"HS256\")\ndef get_user_by_email(db: Session, email: str) -> User | None:\n    return db.query(User).filter(User.email == email).first()",
+        "detail": "ai developer.python.async.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.auth",
+        "description": "ai developer.python.async.app.auth",
+        "peekOfCode": "def create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()\n    expires = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expires})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=\"HS256\")\ndef get_user_by_email(db: Session, email: str) -> User | None:\n    return db.query(User).filter(User.email == email).first()\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,",
+        "detail": "ai developer.python.async.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_email",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.auth",
+        "description": "ai developer.python.async.app.auth",
+        "peekOfCode": "def get_user_by_email(db: Session, email: str) -> User | None:\n    return db.query(User).filter(User.email == email).first()\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])",
+        "detail": "ai developer.python.async.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.auth",
+        "description": "ai developer.python.async.app.auth",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])\n        email: str|None = payload.get(\"sub\")\n        if email is None:",
+        "detail": "ai developer.python.async.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.auth",
+        "description": "ai developer.python.async.app.auth",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", \"change-this-to-a-long-random-string\")\nACCESS_TOKEN_EXPIRE_MINUTES = 60\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/login\")\ndef hash_password(password: str) -> str :\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):",
+        "detail": "ai developer.python.async.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.auth",
+        "description": "ai developer.python.async.app.auth",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 60\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/login\")\ndef hash_password(password: str) -> str :\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()",
+        "detail": "ai developer.python.async.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.auth",
+        "description": "ai developer.python.async.app.auth",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/login\")\ndef hash_password(password: str) -> str :\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()\n    expires = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))",
+        "detail": "ai developer.python.async.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.database",
+        "description": "ai developer.python.async.app.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "ai developer.python.async.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.database",
+        "description": "ai developer.python.async.app.database",
+        "peekOfCode": "DATABASE_URL = \"sqlite:///./app.db\"\nengine = create_engine(\n    DATABASE_URL,\n    connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine\n)",
+        "detail": "ai developer.python.async.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.database",
+        "description": "ai developer.python.async.app.database",
+        "peekOfCode": "engine = create_engine(\n    DATABASE_URL,\n    connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine\n)\nBase = declarative_base()",
+        "detail": "ai developer.python.async.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.database",
+        "description": "ai developer.python.async.app.database",
+        "peekOfCode": "SessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine\n)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db",
+        "detail": "ai developer.python.async.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.database",
+        "description": "ai developer.python.async.app.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "ai developer.python.async.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.main",
+        "description": "ai developer.python.async.app.main",
+        "peekOfCode": "def root():\n    return {\"message\": \"Study Assistant API is running\"}\napp.get(\"/heaalth\")\ndef health():\n    return {\n        \"status\":\"success\",\n        \"message\":\"API is healthy\",\n    }",
+        "detail": "ai developer.python.async.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "ai developer.python.async.app.main",
+        "description": "ai developer.python.async.app.main",
+        "peekOfCode": "def health():\n    return {\n        \"status\":\"success\",\n        \"message\":\"API is healthy\",\n    }",
+        "detail": "ai developer.python.async.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ai developer.python.async.app.main",
+        "description": "ai developer.python.async.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Study Assistant API\")\napp.include_router(chat.router)\napp.include_router(auth.router)\napp.include_router(conversations.router)\napp.get(\"/\")\ndef root():\n    return {\"message\": \"Study Assistant API is running\"}\napp.get(\"/heaalth\")\ndef health():\n    return {",
+        "detail": "ai developer.python.async.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class UserCreate(BaseModel):\n    email: EmailStr = Field(..., description=\"User's email address\")\n    password: str = Field(..., min_length=8, max_length=128, description=\"Plain text password\")\nclass UserOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"User ID\")\n    email: EmailStr = Field(..., description=\"User's email address\")\nclass Token(BaseModel):\n    access_token: str = Field(..., description=\"JWT access token\")\n    token_type: str = Field(default=\"bearer\", description=\"Token type\")",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserOut",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class UserOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"User ID\")\n    email: EmailStr = Field(..., description=\"User's email address\")\nclass Token(BaseModel):\n    access_token: str = Field(..., description=\"JWT access token\")\n    token_type: str = Field(default=\"bearer\", description=\"Token type\")\nclass ConversationCreate(BaseModel):\n    title: Optional[str] = Field(default=None, max_length=200, description=\"Optional conversation title\")\nclass ConversationOut(BaseModel):",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str = Field(..., description=\"JWT access token\")\n    token_type: str = Field(default=\"bearer\", description=\"Token type\")\nclass ConversationCreate(BaseModel):\n    title: Optional[str] = Field(default=None, max_length=200, description=\"Optional conversation title\")\nclass ConversationOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Conversation ID\")\n    title: Optional[str] = Field(None, description=\"Conversation title\")\n    created_at: datetime = Field(..., description=\"When the conversation was created\")",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationCreate",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class ConversationCreate(BaseModel):\n    title: Optional[str] = Field(default=None, max_length=200, description=\"Optional conversation title\")\nclass ConversationOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Conversation ID\")\n    title: Optional[str] = Field(None, description=\"Conversation title\")\n    created_at: datetime = Field(..., description=\"When the conversation was created\")\nclass MessageResquest(BaseModel):\n    content: str = Field(..., min_length=1, max_length=4000, description=\"Message content\")\nclass MessageResponse(BaseModel):",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationOut",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class ConversationOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Conversation ID\")\n    title: Optional[str] = Field(None, description=\"Conversation title\")\n    created_at: datetime = Field(..., description=\"When the conversation was created\")\nclass MessageResquest(BaseModel):\n    content: str = Field(..., min_length=1, max_length=4000, description=\"Message content\")\nclass MessageResponse(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Message ID\")",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "MessageResquest",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class MessageResquest(BaseModel):\n    content: str = Field(..., min_length=1, max_length=4000, description=\"Message content\")\nclass MessageResponse(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Message ID\")\n    role: str = Field(..., description=\"Role of the message sender (user or assistant)\")\n    content: str = Field(..., description=\"Message content\")\n    tokens_used: int = Field(..., description=\"Tokens used \")\n    created_at: datetime = Field(..., description=\"When the message was created\")\nclass ChatRequest(BaseModel):",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "MessageResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class MessageResponse(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Message ID\")\n    role: str = Field(..., description=\"Role of the message sender (user or assistant)\")\n    content: str = Field(..., description=\"Message content\")\n    tokens_used: int = Field(..., description=\"Tokens used \")\n    created_at: datetime = Field(..., description=\"When the message was created\")\nclass ChatRequest(BaseModel):\n    message: str = Field(..., min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str = Field(..., min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\nclass StudyPackRequest(BaseModel):\n    topic: str\nclass StudyPackResponse(BaseModel):\n    summary: str",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\nclass StudyPackRequest(BaseModel):\n    topic: str\nclass StudyPackResponse(BaseModel):\n    summary: str\n    quiz: str\n    flashcards: str",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "StudyPackRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class StudyPackRequest(BaseModel):\n    topic: str\nclass StudyPackResponse(BaseModel):\n    summary: str\n    quiz: str\n    flashcards: str\n    execution_mode: str = \"Concurrent (asyncio.gather)\"",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "StudyPackResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.async.app.schema",
+        "description": "ai developer.python.async.app.schema",
+        "peekOfCode": "class StudyPackResponse(BaseModel):\n    summary: str\n    quiz: str\n    flashcards: str\n    execution_mode: str = \"Concurrent (asyncio.gather)\"",
+        "detail": "ai developer.python.async.app.schema",
+        "documentation": {}
+    },
+    {
         "label": "ChatRequest",
         "kind": 6,
         "importPath": "ai developer.python.fastapi.app.routers.chat",
         "description": "ai developer.python.fastapi.app.routers.chat",
-        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str = Field(..., default=\"\", min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str = Field(...,  min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:",
         "detail": "ai developer.python.fastapi.app.routers.chat",
         "documentation": {}
     },
@@ -211,7 +1794,7 @@
         "kind": 5,
         "importPath": "ai developer.python.fastapi.app.routers.chat",
         "description": "ai developer.python.fastapi.app.routers.chat",
-        "peekOfCode": "router = APIRouter(prefix=\"/chat\", tags=[\"chat\"])\nclass ChatRequest(BaseModel):\n    message: str = Field(..., default=\"\", min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()",
+        "peekOfCode": "router = APIRouter(prefix=\"/chat\", tags=[\"chat\"])\nclass ChatRequest(BaseModel):\n    message: str = Field(...,  min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()",
         "detail": "ai developer.python.fastapi.app.routers.chat",
         "documentation": {}
     },
@@ -339,6 +1922,420 @@
         "description": "ai developer.python.fastapi.app.main",
         "peekOfCode": "app = FastAPI(\ntitle=\"My Backend API\",\ndescription=\"A first FastAPI backend for my project.\",\nversion=\"1.0.0\"\n)\napp.include_router(chat.router)\n@app.get(\"/\")\ndef health():\n    return{\n        \"status\": \"ok\",",
         "detail": "ai developer.python.fastapi.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "Conversation",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.models.conversation",
+        "description": "ai developer.python.fastapi.project2.app.models.conversation",
+        "peekOfCode": "class Conversation(Base):\n    __tablename__ = \"conversations\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, nullable=True)\n    user_id = Column(Integer, ForeignKey(\"users.id\"), nullable=False)\n    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))\n    owner = relationship(\"User\", back_populates=\"conversations\")\n    messages = relationship(\"Message\", back_populates=\"conversation\", cascade=\"all, delete-orphan\")",
+        "detail": "ai developer.python.fastapi.project2.app.models.conversation",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.models.message",
+        "description": "ai developer.python.fastapi.project2.app.models.message",
+        "peekOfCode": "class Message(Base):\n    __tablename__ = \"messages\"\n    id = Column(Integer, primary_key=True, index=True)\n    conversation_id = Column(Integer, ForeignKey(\"conversations.id\"), nullable=False)\n    role = Column(String, nullable=False)          # \"user\" or \"assistant\"\n    content = Column(Text, nullable=False)\n    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))\n    tokens_used = Column(Integer, default=0)\n    conversation = relationship(\"Conversation\", back_populates=\"messages\")",
+        "detail": "ai developer.python.fastapi.project2.app.models.message",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.models.user",
+        "description": "ai developer.python.fastapi.project2.app.models.user",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    email = Column(String, unique=True, index=True, nullable=False)\n    hashed_password = Column(String, nullable=False)\n    is_active = Column(Boolean, default=True)\n    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))\n    conversations = relationship(\"Conversation\", back_populates=\"owner\")",
+        "detail": "ai developer.python.fastapi.project2.app.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.auth",
+        "description": "ai developer.python.fastapi.project2.app.routers.auth",
+        "peekOfCode": "def register(user_in: UserCreate, db: Session = Depends(get_db)):\n    if get_user_by_email(db, user_in.email):\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    user = User(\n        email=user_in.email,\n        hashed_password= hash_password(user_in.password)\n    )\n    db.add(user)\n    db.commit()\n    db.refresh(user)",
+        "detail": "ai developer.python.fastapi.project2.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.auth",
+        "description": "ai developer.python.fastapi.project2.app.routers.auth",
+        "peekOfCode": "def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n    user = get_user_by_email(db, form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Incorrect email or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.email})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "ai developer.python.fastapi.project2.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.auth",
+        "description": "ai developer.python.fastapi.project2.app.routers.auth",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"auth\"])\n@router.post(\"/register\", response_model=UserOut, status_code=201)\ndef register(user_in: UserCreate, db: Session = Depends(get_db)):\n    if get_user_by_email(db, user_in.email):\n        raise HTTPException(status_code=400, detail=\"Email already registered\")\n    user = User(\n        email=user_in.email,\n        hashed_password= hash_password(user_in.password)\n    )\n    db.add(user)",
+        "detail": "ai developer.python.fastapi.project2.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.chat",
+        "description": "ai developer.python.fastapi.project2.app.routers.chat",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    message: str = Field(..., min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:",
+        "detail": "ai developer.python.fastapi.project2.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.chat",
+        "description": "ai developer.python.fastapi.project2.app.routers.chat",
+        "peekOfCode": "class ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:\n        raise HTTPException(\n        status_code=400,",
+        "detail": "ai developer.python.fastapi.project2.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.chat",
+        "description": "ai developer.python.fastapi.project2.app.routers.chat",
+        "peekOfCode": "def chat(request: ChatRequest):\n    clean_message = request.message.strip()\n    if not clean_message:\n        raise HTTPException(\n        status_code=400,\n        detail=\"Message cannot be empty.\"\n        )\n    result = call_llm(clean_message)\n    return ChatResponse(**result)",
+        "detail": "ai developer.python.fastapi.project2.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.chat",
+        "description": "ai developer.python.fastapi.project2.app.routers.chat",
+        "peekOfCode": "router = APIRouter(prefix=\"/chat\", tags=[\"chat\"])\nclass ChatRequest(BaseModel):\n    message: str = Field(..., min_length=1, max_length=2000)\nclass ChatResponse(BaseModel):\n    answer: str\n    model: str\n    tokens_used: int\n@router.post(\"/chat\", response_model=ChatResponse)\ndef chat(request: ChatRequest):\n    clean_message = request.message.strip()",
+        "detail": "ai developer.python.fastapi.project2.app.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "get_owned_conversation",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "description": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "peekOfCode": "def get_owned_conversation(db: Session, conversation_id: int, user: User) -> Conversation:\n    conv = db.query(Conversation).filter(Conversation.id == conversation_id).first()\n    if not conv:\n        raise HTTPException(status_code=404, detail=\"Conversation not found\")\n    if conv.user_id != user.id:\n        raise HTTPException(status_code=403, detail=\"Not allowed to access this conversation\")\n    return conv\n@router.post(\"/\", response_model=ConversationOut, status_code=201)\ndef create_conversation(\n    data: ConversationCreate,",
+        "detail": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "create_conversation",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "description": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "peekOfCode": "def create_conversation(\n    data: ConversationCreate,\n    db: Session = Depends(get_db),\n    current_user: User = Depends(get_current_user)\n):\n    conv = Conversation(title=data.title or \"New conversation\", user_id=current_user.id)\n    db.add(conv)\n    db.commit()\n    db.refresh(conv)\n    return conv",
+        "detail": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "add_message",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "description": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "peekOfCode": "def add_message(\n    conversation_id: int,\n    message_in: MessageResquest,\n    db: Session = Depends(get_db),\n    current_user: User = Depends(get_current_user)\n):\n    conv = get_owned_conversation(db, conversation_id, current_user)\n    # Get and Save user message\n    user_msg = Message(\n        conversation_id=conv.id,",
+        "detail": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "get_messages",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "description": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "peekOfCode": "def get_messages(\n    conversation_id: int,\n    db: Session = Depends(get_db),\n    current_user: User = Depends(get_current_user)\n):\n    conv = get_owned_conversation(db, conversation_id, current_user)\n    return conv.messages",
+        "detail": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "description": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "peekOfCode": "router = APIRouter(prefix=\"/conversations\", tags=[\"conversations\"])\ndef get_owned_conversation(db: Session, conversation_id: int, user: User) -> Conversation:\n    conv = db.query(Conversation).filter(Conversation.id == conversation_id).first()\n    if not conv:\n        raise HTTPException(status_code=404, detail=\"Conversation not found\")\n    if conv.user_id != user.id:\n        raise HTTPException(status_code=403, detail=\"Not allowed to access this conversation\")\n    return conv\n@router.post(\"/\", response_model=ConversationOut, status_code=201)\ndef create_conversation(",
+        "detail": "ai developer.python.fastapi.project2.app.routers.conversations",
+        "documentation": {}
+    },
+    {
+        "label": "call_llm",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.services.ai",
+        "description": "ai developer.python.fastapi.project2.app.services.ai",
+        "peekOfCode": "def call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {\n                        \"role\": \"system\",\n                        \"content\": \"you are a study assistant\"\n                      },\n                        {\n                            \"role\": \"user\",",
+        "detail": "ai developer.python.fastapi.project2.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.services.ai",
+        "description": "ai developer.python.fastapi.project2.app.services.ai",
+        "peekOfCode": "api_key = os.getenv(\"GROQ_API_KEY\")\nif not api_key:\n    raise ValueError(\"GROQ_API_KEY not found in environment variables\")\n# Initialize the Groq client\nclient = Groq(api_key=api_key)\ndef call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {",
+        "detail": "ai developer.python.fastapi.project2.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.services.ai",
+        "description": "ai developer.python.fastapi.project2.app.services.ai",
+        "peekOfCode": "client = Groq(api_key=api_key)\ndef call_llm(user_message: str) -> dict:\n    try:\n        response = client.chat.completions.create(\n            messages=[\n                   {\n                        \"role\": \"system\",\n                        \"content\": \"you are a study assistant\"\n                      },\n                        {",
+        "detail": "ai developer.python.fastapi.project2.app.services.ai",
+        "documentation": {}
+    },
+    {
+        "label": "get_assistant_reply",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "description": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "peekOfCode": "def get_assistant_reply(user_message: str, history: list[dict] | None = None) -> str:\n    \"\"\"\n    Generate a reply from Mistral.\n    - user_message: the new message from the user\n    - history: optional list of previous messages \n               (each item: {\"role\": \"user\"|\"assistant\", \"content\": \"...\"})\n    \"\"\"\n    messages = [SYSTEM_PROMPT]\n    if history:\n        messages.extend(history)",
+        "detail": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "get_cached_reply",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "description": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "peekOfCode": "def get_cached_reply(user_message: str) -> str:\n    \"\"\"\n    Cache is temporary (lives only in memory).\n    Database is the permanent source of truth.\n    Only use this for repeated, non-sensitive questions.\n    \"\"\"\n    return get_assistant_reply(user_message)",
+        "detail": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "api_key",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "description": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "peekOfCode": "api_key = os.environ.get(\"MISTRAL_API_KEY\")\nif not api_key:\n    raise ValueError(\"MISTRAL_API_KEY not set\")\nclient = Mistral(api_key=api_key)\nSYSTEM_PROMPT = {\n    \"role\": \"system\",\n    \"content\": (\n        \"You are a friendly study assistant. \"\n        \"Explain simply, use short sentences, \"\n        \"and end with one practice question.\"",
+        "detail": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "description": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "peekOfCode": "client = Mistral(api_key=api_key)\nSYSTEM_PROMPT = {\n    \"role\": \"system\",\n    \"content\": (\n        \"You are a friendly study assistant. \"\n        \"Explain simply, use short sentences, \"\n        \"and end with one practice question.\"\n    )\n}\ndef get_assistant_reply(user_message: str, history: list[dict] | None = None) -> str:",
+        "detail": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "description": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "peekOfCode": "SYSTEM_PROMPT = {\n    \"role\": \"system\",\n    \"content\": (\n        \"You are a friendly study assistant. \"\n        \"Explain simply, use short sentences, \"\n        \"and end with one practice question.\"\n    )\n}\ndef get_assistant_reply(user_message: str, history: list[dict] | None = None) -> str:\n    \"\"\"",
+        "detail": "ai developer.python.fastapi.project2.app.services.ministralai",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.auth",
+        "description": "ai developer.python.fastapi.project2.app.auth",
+        "peekOfCode": "def hash_password(password: str) -> str :\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()\n    expires = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expires})",
+        "detail": "ai developer.python.fastapi.project2.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.auth",
+        "description": "ai developer.python.fastapi.project2.app.auth",
+        "peekOfCode": "def verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()\n    expires = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expires})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=\"HS256\")\ndef get_user_by_email(db: Session, email: str) -> User | None:\n    return db.query(User).filter(User.email == email).first()",
+        "detail": "ai developer.python.fastapi.project2.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.auth",
+        "description": "ai developer.python.fastapi.project2.app.auth",
+        "peekOfCode": "def create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()\n    expires = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))\n    to_encode.update({\"exp\": expires})\n    return jwt.encode(to_encode, SECRET_KEY, algorithm=\"HS256\")\ndef get_user_by_email(db: Session, email: str) -> User | None:\n    return db.query(User).filter(User.email == email).first()\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,",
+        "detail": "ai developer.python.fastapi.project2.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_email",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.auth",
+        "description": "ai developer.python.fastapi.project2.app.auth",
+        "peekOfCode": "def get_user_by_email(db: Session, email: str) -> User | None:\n    return db.query(User).filter(User.email == email).first()\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])",
+        "detail": "ai developer.python.fastapi.project2.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.auth",
+        "description": "ai developer.python.fastapi.project2.app.auth",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])\n        email: str|None = payload.get(\"sub\")\n        if email is None:",
+        "detail": "ai developer.python.fastapi.project2.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.auth",
+        "description": "ai developer.python.fastapi.project2.app.auth",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", \"change-this-to-a-long-random-string\")\nACCESS_TOKEN_EXPIRE_MINUTES = 60\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/login\")\ndef hash_password(password: str) -> str :\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):",
+        "detail": "ai developer.python.fastapi.project2.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.auth",
+        "description": "ai developer.python.fastapi.project2.app.auth",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 60\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/login\")\ndef hash_password(password: str) -> str :\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()",
+        "detail": "ai developer.python.fastapi.project2.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.auth",
+        "description": "ai developer.python.fastapi.project2.app.auth",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/login\")\ndef hash_password(password: str) -> str :\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.hash(password)\ndef verify_password(plain_password: str, hashed:str) -> bool:\n    pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\n    return pwd_context.verify(plain_password, hashed)\ndef create_access_token(data:dict, expires_delta:Optional[ timedelta] = None):\n    to_encode = data.copy()\n    expires = datetime.now(timezone.utc) + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))",
+        "detail": "ai developer.python.fastapi.project2.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.database",
+        "description": "ai developer.python.fastapi.project2.app.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "ai developer.python.fastapi.project2.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.database",
+        "description": "ai developer.python.fastapi.project2.app.database",
+        "peekOfCode": "DATABASE_URL = \"sqlite:///./app.db\"\nengine = create_engine(\n    DATABASE_URL,\n    connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine\n)",
+        "detail": "ai developer.python.fastapi.project2.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.database",
+        "description": "ai developer.python.fastapi.project2.app.database",
+        "peekOfCode": "engine = create_engine(\n    DATABASE_URL,\n    connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine\n)\nBase = declarative_base()",
+        "detail": "ai developer.python.fastapi.project2.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.database",
+        "description": "ai developer.python.fastapi.project2.app.database",
+        "peekOfCode": "SessionLocal = sessionmaker(\n    autocommit=False,\n    autoflush=False,\n    bind=engine\n)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db",
+        "detail": "ai developer.python.fastapi.project2.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.database",
+        "description": "ai developer.python.fastapi.project2.app.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "ai developer.python.fastapi.project2.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.main",
+        "description": "ai developer.python.fastapi.project2.app.main",
+        "peekOfCode": "def root():\n    return {\"message\": \"Study Assistant API is running\"}\napp.get(\"/heaalth\")\ndef health():\n    return {\n        \"status\":\"success\",\n        \"message\":\"API is healthy\",\n    }",
+        "detail": "ai developer.python.fastapi.project2.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi.project2.app.main",
+        "description": "ai developer.python.fastapi.project2.app.main",
+        "peekOfCode": "def health():\n    return {\n        \"status\":\"success\",\n        \"message\":\"API is healthy\",\n    }",
+        "detail": "ai developer.python.fastapi.project2.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi.project2.app.main",
+        "description": "ai developer.python.fastapi.project2.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Study Assistant API\")\napp.include_router(chat.router)\napp.include_router(auth.router)\napp.include_router(conversations.router)\napp.get(\"/\")\ndef root():\n    return {\"message\": \"Study Assistant API is running\"}\napp.get(\"/heaalth\")\ndef health():\n    return {",
+        "detail": "ai developer.python.fastapi.project2.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.schema",
+        "description": "ai developer.python.fastapi.project2.app.schema",
+        "peekOfCode": "class UserCreate(BaseModel):\n    email: EmailStr = Field(..., description=\"User's email address\")\n    password: str = Field(..., min_length=8, max_length=128, description=\"Plain text password\")\nclass UserOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"User ID\")\n    email: EmailStr = Field(..., description=\"User's email address\")\nclass Token(BaseModel):\n    access_token: str = Field(..., description=\"JWT access token\")\n    token_type: str = Field(default=\"bearer\", description=\"Token type\")",
+        "detail": "ai developer.python.fastapi.project2.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserOut",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.schema",
+        "description": "ai developer.python.fastapi.project2.app.schema",
+        "peekOfCode": "class UserOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"User ID\")\n    email: EmailStr = Field(..., description=\"User's email address\")\nclass Token(BaseModel):\n    access_token: str = Field(..., description=\"JWT access token\")\n    token_type: str = Field(default=\"bearer\", description=\"Token type\")\nclass ConversationCreate(BaseModel):\n    title: Optional[str] = Field(default=None, max_length=200, description=\"Optional conversation title\")\nclass ConversationOut(BaseModel):",
+        "detail": "ai developer.python.fastapi.project2.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.schema",
+        "description": "ai developer.python.fastapi.project2.app.schema",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str = Field(..., description=\"JWT access token\")\n    token_type: str = Field(default=\"bearer\", description=\"Token type\")\nclass ConversationCreate(BaseModel):\n    title: Optional[str] = Field(default=None, max_length=200, description=\"Optional conversation title\")\nclass ConversationOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Conversation ID\")\n    title: Optional[str] = Field(None, description=\"Conversation title\")\n    created_at: datetime = Field(..., description=\"When the conversation was created\")",
+        "detail": "ai developer.python.fastapi.project2.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationCreate",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.schema",
+        "description": "ai developer.python.fastapi.project2.app.schema",
+        "peekOfCode": "class ConversationCreate(BaseModel):\n    title: Optional[str] = Field(default=None, max_length=200, description=\"Optional conversation title\")\nclass ConversationOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Conversation ID\")\n    title: Optional[str] = Field(None, description=\"Conversation title\")\n    created_at: datetime = Field(..., description=\"When the conversation was created\")\nclass MessageResquest(BaseModel):\n    content: str = Field(..., min_length=1, max_length=4000, description=\"Message content\")\nclass MessageResponse(BaseModel):",
+        "detail": "ai developer.python.fastapi.project2.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationOut",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.schema",
+        "description": "ai developer.python.fastapi.project2.app.schema",
+        "peekOfCode": "class ConversationOut(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Conversation ID\")\n    title: Optional[str] = Field(None, description=\"Conversation title\")\n    created_at: datetime = Field(..., description=\"When the conversation was created\")\nclass MessageResquest(BaseModel):\n    content: str = Field(..., min_length=1, max_length=4000, description=\"Message content\")\nclass MessageResponse(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Message ID\")",
+        "detail": "ai developer.python.fastapi.project2.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "MessageResquest",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.schema",
+        "description": "ai developer.python.fastapi.project2.app.schema",
+        "peekOfCode": "class MessageResquest(BaseModel):\n    content: str = Field(..., min_length=1, max_length=4000, description=\"Message content\")\nclass MessageResponse(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Message ID\")\n    role: str = Field(..., description=\"Role of the message sender (user or assistant)\")\n    content: str = Field(..., description=\"Message content\")\n    tokens_used: int = Field(..., description=\"Tokens used \")\n    created_at: datetime = Field(..., description=\"When the message was created\")",
+        "detail": "ai developer.python.fastapi.project2.app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "MessageResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.fastapi.project2.app.schema",
+        "description": "ai developer.python.fastapi.project2.app.schema",
+        "peekOfCode": "class MessageResponse(BaseModel):\n    model_config = ConfigDict(from_attributes=True)\n    id: int = Field(..., description=\"Message ID\")\n    role: str = Field(..., description=\"Role of the message sender (user or assistant)\")\n    content: str = Field(..., description=\"Message content\")\n    tokens_used: int = Field(..., description=\"Tokens used \")\n    created_at: datetime = Field(..., description=\"When the message was created\")",
+        "detail": "ai developer.python.fastapi.project2.app.schema",
         "documentation": {}
     }
 ]

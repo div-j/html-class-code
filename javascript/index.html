@@ -1,60 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script>
-        // keywords
-        /* js keywords are special words in js that has specially meaning and cant be used to create variables or functions
-         */
-        // keywords in js are reserved
-        // examples
-        // console.log("james")
-        // console.log("james")
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-        name = "james"
-        console.log(name)
-        console.log(name)
-        console.log(name)
-
-        $msg$= "Hello! james, how are you doing today and how is your mom?"
+  </head>
+  <body>
+    <h1 id="s">Signup</h1>
 
 
-        console.log($msg$)
+    <section class="container">
+        <form action="">
+  <div class="mb-3 mt-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+  </div>
+  <div class="mb-3">
+    <label for="pwd" class="form-label">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  </div>
+  <div class="mb-3">
+    <label for="dob" id="e" class="form-label">DOB:</label>
+    <input type="date" class="form-control" name="dob">
+  </div>
 
-        age = 30
-        console.log(age)
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </section>
 
+    <div class="m-4">
+        <h1 id="b">Off</h1>
+        <h1 id="c"></h1>
+        <button onclick="grabE()" class="btn btn-outline-success">Clikc me</button>
+    </div>
+
+
+
+
+       <script>
+        document.getElementById("s").innerHTML="Register"
+
+        val = document.getElementById('email').value
+
+        console.log(val)
+
+        function change() {
+            document.getElementById("b").innerHTML= "<h5>On</h5>"
+        }
+
+        function grabE(){
+           data =  document.getElementById('email').value
+           pwd =  document.getElementById('pwd').value
+           document.getElementById('b').innerText=data;
+           document.getElementById('c').innerText=pwd;
+        }
         
 
 
 
-        
 
     </script>
-</head>
-<body>
-    <h1>Signup</h1>
-
-    <form action="">
-        <div>
-            <label for="name">Name</label>
-            <input type="text"  placeholder="enter your name">
-        </div>
-        <br>
-        <div>
-            <label for="email">Email</label>
-            <input type="email">
-        </div>
-<br>
-        <div>
-            <label for="dob">DOB</label>
-            <input type="date">
-        </div>
-
-    </form>
-
-    <h1>OMO</h1>
-</body>
+  </body>
 </html>
