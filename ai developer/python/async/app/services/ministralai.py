@@ -71,3 +71,40 @@ def get_cached_reply(user_message: str) -> str:
     Only use this for repeated, non-sensitive questions.
     """
     return get_assistant_reply(user_message)
+
+    
+async def generate_summary_async(text: str) -> str:
+    """Task 1: Generate summary asynchronously."""
+    if client and hasattr(client, "chat") and hasattr(client.chat, "complete_async"):
+        res = await client.chat.complete_async(
+            model="mistral-small-latest",
+            messages=[{"role": "user", "content": f"Summarize this concept concisely: {text}"}],
+            max_tokens=150
+        )
+        return res.choices[0].message.content
+    await asyncio.sleep(1.2)  # Simulates async work
+    return f"Summary: Key insights from '{text[:30]}...'."
+
+async def generate_quiz_async(text: str) -> str:
+    """Task 2: Generate quiz question asynchronously."""
+    if client and hasattr(client, "chat") and hasattr(client.chat, "complete_async"):
+        res = await client.chat.complete_async(
+            model="mistral-small-latest",
+            messages=[{"role": "user", "content": f"Create 1 multiple-choice quiz question based on: {text}"}],
+            max_tokens=150
+        )
+        return res.choices[0].message.content
+    await asyncio.sleep(1.5)  # Simulates async work
+    return f"Quiz: What is the main principle behind '{text[:30]}...'?"
+
+async def generate_flashcards_async(text: str) -> str:
+    """Task 3: Generate flashcards asynchronously."""
+    if client and hasattr(client, "chat") and hasattr(client.chat, "complete_async"):
+        res = await client.chat.complete_async(
+            model="mistral-small-latest",
+            messages=[{"role": "user", "content": f"Create 2 simple flashcard pairs (Q&A) for: {text}"}],
+            max_tokens=150
+        )
+        return res.choices[0].message.content
+    await asyncio.sleep(1.0)  # Simulates async work
+    return f"Flashcards: Q1: What is {text[:15]}? | A1: It is an important concept."

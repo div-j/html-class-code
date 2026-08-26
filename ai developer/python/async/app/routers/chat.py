@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 import asyncio
 from ..services.ai import call_llm
 from ..auth import get_current_user
-from ..services.ministralai import get_assistant_reply
+from ..services.ministralai import get_assistant_reply,generate_flashcards_async, generate_quiz_async, generate_summary_async
 from ..schema import ChatResponse, ChatRequest, StudyPackResponse, StudyPackRequest
 from ..models.user import User
 
@@ -77,3 +77,43 @@ async def create_study_pack(
         quiz=quiz,
         flashcards=flashcards
     )
+    
+    
+@router.post("/study-pack", response_model=StudyPackResponse)
+async def generate_study_pack(
+    payload: StudyPackRequest,
+    # background_tasks: BackgroundTasks,
+    current_user: User = Depends(get_current_user)
+):
+    """
+    Generates summary, quiz, and flashcards CONCURRENTLY using asyncio.gather.
+    """
+    try:
+        # Run three independent async AI tasks concurrently with timeout
+        summary_res, quiz_res, flashcard_res = await asyncio.wait_for(
+            asyncio.gather(
+                generate_summary_async(payload.topic),
+                generate_quiz_async(payload.topic),
+                generate_flashcards_async(payload.topic)
+            ),
+            timeout=8.0
+        )
+
+        # Trigger non-blocking background task
+        # background_tasks.add_task(log_analytics_background, current_user.id, "generate_study_pack")
+
+        return StudyPackResponse(
+            summary=summary_res,
+            quiz=quiz_res,
+            flashcards=flashcard_res
+        )
+    except asyncio.TimeoutError:
+        raise HTTPException(
+            status_code=status.HTTP_504_GATEWAY_TIMEOUT,
+            detail="Generating the full study pack timed out."
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Error generating study pack: {str(e)}"
+        )
