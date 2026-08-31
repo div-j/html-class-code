@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars R Us</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar sticky-top   navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">
+          <img
+            src="../images/brand.jpeg"
+            alt="Avatar Logo"
+            style="width: 40px"
+            class="rounded-pill"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cars">Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search" />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <div id="hero" class="p-5 bg-primary text-white">
+      <h1>Find Your Next Car. Drive With Confidence.</h1>
+      <p class="lead">
+        Explore quality new and pre-owned vehicles from trusted sellers. Compare
+        options, check the details, and find a car that fits your lifestyle and
+        budget..
+      </p>
+      <button class="btn btn-outline-primary btn-light">Browse Cars →</button>
+    </div>
+
+    <main class="py-5 my-5  container-fluid">
+      <h1 class="border-start border-danger border-2 ps-2">
+        Find a Car That Fits Your Life
+      </h1>
+      <p class="text-sm">
+        Explore our handpicked selection of quality vehicles, from everyday cars
+        to premium rides. View key details, compare your options, and find the
+        right vehicle for you.
+      </p>
+
+      <h2 class="mb-3 text-cenr">Cars</h2>
+      <section id="cars" class="row gap-3 justify-content-center ">
+       
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      const cars = [
+        {
+          id: 1,
+          image:
+            "https://file.kelleybluebookimages.com/kbb/base/evox/CP/53212/2024-Toyota-Camry-front_53212_032_2400x1800_2PS.png",
+          name: "Toyota Camry",
+          model: "2024 XSE",
+          description:
+            "A stylish and refined sedan with a sporty design, premium interior and smooth automatic transmission.",
+          price: 43500000,
+          location: "Abuja, FCT",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 2,
+          image:
+            "https://www.motorgy.com/en/car-details/mercedes-benz-mercedes-benz-2023/21998",
+          name: "Mercedes-Benz C300",
+          model: "2023 C300 4MATIC",
+          description:
+            "A premium luxury sedan combining elegant styling, advanced technology and responsive performance.",
+          price: 58000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 3,
+          image:
+            "https://www.privatecollectionmotors.com/imagetag/487/11/l/Used-2022-Lexus-RX-350-RX-350-1689456408.jpg",
+          name: "Lexus RX 350",
+          model: "2022 RX 350",
+          description:
+            "A comfortable luxury SUV offering a refined cabin, impressive road presence and dependable performance.",
+          price: 52000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 4,
+          image:
+            "https://i.gaw.to/content/photos/53/77/537792-honda-cr-v-2023-beaucoup-plus-qu-une-timide-refonte.jpeg",
+          name: "Honda CR-V",
+          model: "2023 EX",
+          description:
+            "A practical and modern SUV designed for comfortable family driving, city commutes and long trips.",
+          price: 47000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 5,
+          image:
+            "https://www.grahamtoyota.com/models/toyota-rav4-hybrid-mansfield-oh.htm",
+          name: "Toyota RAV4",
+          model: "2023 Hybrid",
+          description:
+            "A versatile SUV with excellent practicality, modern styling and efficient hybrid performance.",
+          price: 48500000,
+          location: "Abuja, FCT",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 6,
+          image:
+            "https://vehicle-images.dealerinspire.com/5c8c-110010038/5TDGZRBH2NS233698/9abb1eca632a63e26f99f881150fe5a5.jpg",
+          name: "Toyota Highlander",
+          model: "2022 XLE",
+          description:
+            "A spacious three-row SUV offering excellent comfort, practicality and a powerful driving experience.",
+          price: 55000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 7,
+          image:
+            "https://static.wixstatic.com/media/8a7b41_6385e0fe4198446e9c7dd20cea5f3ce6~mv2.jpg/v1/fill/w_980%2Ch_735%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/8a7b41_6385e0fe4198446e9c7dd20cea5f3ce6~mv2.jpg",
+          name: "Mercedes-Benz GLE",
+          model: "2022 GLE 350",
+          description:
+            "A premium midsize SUV delivering luxury, comfort and confident performance for everyday driving.",
+          price: 72000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 8,
+          image:
+            "https://content.homenetiol.com/2000157/2065512/0x0/5efc05f2b583435c90988c8cc7862f6e.jpg",
+          name: "Kia Sportage",
+          model: "2023 EX",
+          description:
+            "A modern compact SUV featuring a bold exterior, comfortable interior and practical everyday performance.",
+          price: 39000000,
+          location: "Abuja, FCT",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 9,
+          image:
+            "https://pictures.dealer.com/c/cityfordfd/1942/417fb18c16ca1836794e939105133170x.jpg?imdensity=1&impolicy=downsize_bkpt&w=520",
+          name: "Ford Explorer",
+          model: "2023 XLT",
+          description:
+            "A spacious and capable SUV built for families, road trips and everyday city driving.",
+          price: 58000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 10,
+          image: "https://www.motortrend.com/cars/lexus/es/2024",
+          name: "Lexus ES 350",
+          model: "2024 ES 350",
+          description:
+            "A sophisticated luxury sedan with a quiet cabin, premium styling and smooth driving experience.",
+          price: 62000000,
+          location: "Abuja, FCT",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 11,
+          image: "https://erp.jaftim.com/storage/app/public/stock/25425/f.jpg",
+          name: "Toyota Land Cruiser Prado",
+          model: "2024 Prado",
+          description:
+            "A rugged yet luxurious SUV built for Nigerian roads, combining off-road capability with premium comfort.",
+          price: 105000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 12,
+          image:
+            "https://d3sm3e0zl6r9d1.cloudfront.net/sothebysmotor/vehicles/FEB1A3EC-BD01-41EB-BF21-3FDBA51A85E9/images/B5C5CB4B-650E-44DC-90CF-0576A6BDE45B.webp",
+          name: "BMW X5",
+          model: "2024 xDrive40i",
+          description:
+            "A premium performance SUV with sophisticated styling, advanced technology and all-wheel-drive capability.",
+          price: 85000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 13,
+          image:
+            "https://motorhub.club/wp-content/uploads/2025/11/Hyundai-Tucson-1024x536.webp",
+          name: "Hyundai Tucson",
+          model: "2024 Limited",
+          description:
+            "A stylish compact SUV offering modern technology, comfortable seating and efficient everyday performance.",
+          price: 42000000,
+          location: "Abuja, FCT",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 14,
+          image:
+            "https://images.dealersync.com/2320/Photos/1014411/20231027142335613_IMG_0218.jpg?_=9e1ab8822b81da2f0f038456ebd6597a93ba5b26",
+          name: "Audi Q5",
+          model: "2022 S Line Premium Plus",
+          description:
+            "A refined luxury SUV featuring sporty S-line styling, premium technology and confident all-wheel-drive performance.",
+          price: 48000000,
+          location: "Lagos, Nigeria",
+          transmission: "Automatic",
+          usage: "Foreign Used",
+        },
+
+        {
+          id: 15,
+          image:
+            "https://hips.hearstapps.com/hmg-prod/images/2022-mercedes-benz-c300-4matic-sedan-111-1655383530.jpg",
+          name: "Mercedes-Benz C300",
+          model: "2023 4MATIC",
+          description:
+            "A sophisticated executive sedan with premium comfort, advanced technology and dynamic road performance.",
+          price: 60000000,
+          location: "Port Harcourt, Rivers",
+          transmission: "Automatic",
+          usage: "Local Used",
+        },
+      ];
+   
+    //   cars card
+    const car_container =  document.getElementById("cars")
+    for(car of cars ){
+    car_container.innerHTML += `<div class="card" style="max-width: 300px">
+          <img id="image" class="card-img-top" src=${car.image} alt="" />
+          <div class="card-body">
+            <p id="price" class="lead">₦ ${car.price}</p>
+
+            <span class="d-flex align-items-center gap-4">
+              <h4 id="name" class="card-title">Toyota Camry</h4>
+              <p id="model" class="card-text">2024 XSE</p>
+            </span>
+            <p id="desc" class="card-text samll">
+             ${car.description}
+            </p>
+
+            <p id="loc" class="m-0 fw-bold">Abuja, FCT</p>
+            <span class="d-flex small justify-content-between">
+              <p id="usage">${car.usage}</p>
+              <p id="car-type">${car.transmission}</p>
+            </span>
+          </div>
+        </div>`
+    }
+   
+   </script>
+  </body>
+</html>
