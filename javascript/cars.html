@@ -8,6 +8,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
   </head>
   <body>
     <nav class="navbar sticky-top   navbar-expand-sm navbar-dark bg-dark">
@@ -37,7 +40,7 @@
               <a class="nav-link" href="#cars">Cars</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">About Us</a>
+              <a class="nav-link" href="#about">About Us</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -59,7 +62,7 @@
       <button class="btn btn-outline-primary btn-light">Browse Cars →</button>
     </div>
 
-    <main class="py-5 my-5  container-fluid">
+    <main class="py-5 my-5  container">
       <h1 class="border-start border-danger border-2 ps-2">
         Find a Car That Fits Your Life
       </h1>
@@ -69,14 +72,47 @@
         right vehicle for you.
       </p>
 
-      <h2 class="mb-3 text-cenr">Cars</h2>
+      <h2 class="mb-3 text-cenr">Browse Cars</h2>
       <section id="cars" class="row gap-3 justify-content-center ">
        
       </section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <section id="about" class="d-flex bg-dark text-white p-4  gap-3">
+      <span>
+        <h3 class="">About Us</h3>
+        <p class="lead"> Car That Fits Your Life</p>
+        <p class="small">Cars ‘R Us is a company that aims at providing our customers with nothing but the best.
+Founded in August 2026, we have continued to serve our purpose, helping vendors sell their cars for the value they deserve, while simultaneously ensuring customers get their money’s worth.</p>
+      </span>
+      <img class="img-card-fluid rounded-pill" src="../images/brand.jpeg" alt="">
+    </section>
+    <footer class="bg-primary py-5  ">
+      <div class="container ">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-white">© 2021 Company, Inc</span>
+    </div>
 
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-4">
+      <a href="">
+        <i class="bi bi-twitter text-white"></i>
+      </a>
+       <a href="">
+        <i class="bi bi-facebook text-white"></i>
+      </a>
+       <a href="">
+        <i class="bi bi-instagram text-white"></i>
+      </a>
+    </ul>
+  </footer>
+</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script>
       const cars = [
         {
@@ -297,8 +333,8 @@
             <p id="price" class="lead">₦ ${car.price}</p>
 
             <span class="d-flex align-items-center gap-4">
-              <h4 id="name" class="card-title">Toyota Camry</h4>
-              <p id="model" class="card-text">2024 XSE</p>
+              <h4 id="name" class="card-title">${car.name}</h4>
+              <p id="model" class="card-text">${car.model}}</p>
             </span>
             <p id="desc" class="card-text samll">
              ${car.description}

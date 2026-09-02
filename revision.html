@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <section id="quizCon">
+<h4 id="quest"></h4>
+<div id="options">
+
+
+    
+</div>
+    </section>
+    <div>
+    <button onclick="prevQuest()" >←</button>
+
+
+        <button onclick="nextQuest()" >→</button>
+    </div>
+<h3 id="selected"></h3>
+    
+<script>
+      const questions = [
+  {
+    question: "What is the largest planet in our solar system?",
+    category: "Astronomy",
+    options: [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    answer: "Jupiter"
+  },
+
+  {
+    question: "What is the closest planet to the Sun?",
+    category: "Astronomy",
+    options: [
+      "Earth",
+      "Mercury",
+      "Venus",
+      "Mars"
+    ],
+    answer: "Mercury"
+  },
+
+  {
+    question: "How many continents are there?",
+    category: "Geography",
+    options: [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    answer: "7"
+  },
+
+  {
+    question: "What is the capital of Nigeria?",
+    category: "Geography",
+    options: [
+      "Lagos",
+      "Kano",
+      "Abuja",
+      "Ibadan"
+    ],
+    answer: "Abuja"
+  }
+];
+
+index = 0
+function loadQuestion(){
+document.getElementById("quest").innerText=questions[index].question
+
+document.getElementById("options").innerHTML=""
+
+for ( item of questions[index].options){
+  
+document.getElementById("options").innerHTML+=`
+<ul>
+        <li id="option" onclick="showValue(this)">${item}</li>
+    </ul>
+`
+}
+}
+
+
+function nextQuest(){
+    index++
+    loadQuestion()
+}
+
+
+function prevQuest(){
+    index--
+    loadQuestion()
+}
+
+function showValue(value){
+    youSelected = value.innerText
+    if (youSelected == questions[index].answer){
+       document.getElementById("selected").innerText="Correct Answer"
+
+    }else{
+        document.getElementById("selected").innerText="Wrong Answer"
+    }
+    
+}
+
+
+
+</script>
+<!-- <script src="./revision.js">
+</script> -->
+</body>
+</html>
