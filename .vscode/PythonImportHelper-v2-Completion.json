@@ -16,12 +16,151 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOllama",
+        "importPath": "langchain_ollama",
+        "description": "langchain_ollama",
+        "isExtraImport": true,
+        "detail": "langchain_ollama",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOllama",
+        "importPath": "langchain_ollama",
+        "description": "langchain_ollama",
+        "isExtraImport": true,
+        "detail": "langchain_ollama",
+        "documentation": {}
+    },
+    {
+        "label": "MultiServerMCPClient",
+        "importPath": "langchain_mcp_adapters.client",
+        "description": "langchain_mcp_adapters.client",
+        "isExtraImport": true,
+        "detail": "langchain_mcp_adapters.client",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ClientSession",
+        "importPath": "mcp",
+        "description": "mcp",
+        "isExtraImport": true,
+        "detail": "mcp",
+        "documentation": {}
+    },
+    {
+        "label": "StdioServerParameters",
+        "importPath": "mcp",
+        "description": "mcp",
+        "isExtraImport": true,
+        "detail": "mcp",
+        "documentation": {}
+    },
+    {
+        "label": "ClientSession",
+        "importPath": "mcp",
+        "description": "mcp",
+        "isExtraImport": true,
+        "detail": "mcp",
+        "documentation": {}
+    },
+    {
+        "label": "StdioServerParameters",
+        "importPath": "mcp",
+        "description": "mcp",
+        "isExtraImport": true,
+        "detail": "mcp",
+        "documentation": {}
+    },
+    {
+        "label": "stdio_client",
+        "importPath": "mcp.client.stdio",
+        "description": "mcp.client.stdio",
+        "isExtraImport": true,
+        "detail": "mcp.client.stdio",
+        "documentation": {}
+    },
+    {
+        "label": "stdio_client",
+        "importPath": "mcp.client.stdio",
+        "description": "mcp.client.stdio",
+        "isExtraImport": true,
+        "detail": "mcp.client.stdio",
+        "documentation": {}
+    },
+    {
+        "label": "FastMCP",
+        "importPath": "mcp.server.fastmcp",
+        "description": "mcp.server.fastmcp",
+        "isExtraImport": true,
+        "detail": "mcp.server.fastmcp",
         "documentation": {}
     },
     {
@@ -49,6 +188,123 @@
         "description": "ai developer.python.ai-assistance.main",
         "peekOfCode": "chat_completion = client.chat.completions.create(\n    messages=[\n         {\n        \"role\": \"system\",\n        \"content\": \"you are a study assistant\"\n      },\n        {\n            \"role\": \"user\",\n            \"content\": \"hi\",\n        }",
         "detail": "ai developer.python.ai-assistance.main",
+        "documentation": {}
+    },
+    {
+        "label": "choose_tool",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.agent_client",
+        "description": "ai developer.python.mcp.mcp_demo.agent_client",
+        "peekOfCode": "def choose_tool(\n    user_request: str,\n    tools: list[Any]\n) -> dict[str, Any]:\n    tool_descriptions = []\n    for tool in tools:\n        tool_descriptions.append({\n            \"name\": tool.name,\n            \"description\": tool.description,\n            \"input_schema\": tool.inputSchema",
+        "detail": "ai developer.python.mcp.mcp_demo.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "validate_tool_decision",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.agent_client",
+        "description": "ai developer.python.mcp.mcp_demo.agent_client",
+        "peekOfCode": "def validate_tool_decision(\n    decision: dict[str, Any],\n    tools: list[Any]\n) -> tuple[str, dict[str, Any]]:\n    tool_name = decision.get(\"tool_name\")\n    arguments = decision.get(\"arguments\", {})\n    if not tool_name:\n        raise ValueError(\n            \"The model did not return a tool_name.\"\n        )",
+        "detail": "ai developer.python.mcp.mcp_demo.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "ai developer.python.mcp.mcp_demo.agent_client",
+        "description": "ai developer.python.mcp.mcp_demo.agent_client",
+        "peekOfCode": "llm = ChatOllama(\n    model=\"llama3.2\",          # or \"qwen2.5\", \"llama3.2\", \"mistral\", etc.\n    temperature=0,\n)\ndef choose_tool(\n    user_request: str,\n    tools: list[Any]\n) -> dict[str, Any]:\n    tool_descriptions = []\n    for tool in tools:",
+        "detail": "ai developer.python.mcp.mcp_demo.agent_client",
+        "documentation": {}
+    },
+    {
+        "label": "server_params",
+        "kind": 5,
+        "importPath": "ai developer.python.mcp.mcp_demo.client",
+        "description": "ai developer.python.mcp.mcp_demo.client",
+        "peekOfCode": "server_params = StdioServerParameters(\n    command=\"python\",\n    args=[\"server.py\"],\n)\nasync def main():\n    async with stdio_client(server_params) as (read, write):\n        async with ClientSession(read, write) as session:\n            await session.initialize()\n            tools = await session.list_tools()\n            print(\"Tools:\")",
+        "detail": "ai developer.python.mcp.mcp_demo.client",
+        "documentation": {}
+    },
+    {
+        "label": "clamp_days",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "def clamp_days(days: int) -> tuple[int, str | None]:\n    if days < 1:\n        return 1, \"Days was too low, so it was changed to 1.\"\n    if days > 14:\n        return 14, \"Days was too high, so it was changed to 14.\"\n    return days, None\n@mcp.tool()\ndef add(a: int, b: int) -> int:\n    \"\"\"Add two numbers.\"\"\"\n    return a + b",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "def add(a: int, b: int) -> int:\n    \"\"\"Add two numbers.\"\"\"\n    return a + b\n@mcp.tool()\ndef multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two numbers.\"\"\"\n    return a * b\n@mcp.tool()\ndef explain_topic(topic: str, level: str = \"beginner\") -> dict:\n    \"\"\"Create a structured explanation outline for a topic.\"\"\"",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "def multiply(a: int, b: int) -> int:\n    \"\"\"Multiply two numbers.\"\"\"\n    return a * b\n@mcp.tool()\ndef explain_topic(topic: str, level: str = \"beginner\") -> dict:\n    \"\"\"Create a structured explanation outline for a topic.\"\"\"\n    if not topic.strip():\n        return {\"ok\": False, \"error\": \"Topic cannot be empty.\"}\n    allowed_levels = {\"beginner\", \"intermediate\", \"advanced\"}\n    if level not in allowed_levels:",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "explain_topic",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "def explain_topic(topic: str, level: str = \"beginner\") -> dict:\n    \"\"\"Create a structured explanation outline for a topic.\"\"\"\n    if not topic.strip():\n        return {\"ok\": False, \"error\": \"Topic cannot be empty.\"}\n    allowed_levels = {\"beginner\", \"intermediate\", \"advanced\"}\n    if level not in allowed_levels:\n        level = \"beginner\"\n    return {\n        \"ok\": True,\n        \"topic\": topic,",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "create_study_plan",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "def create_study_plan(topic: str, days: int = 3) -> dict:\n    \"\"\"Create a safe study plan between 1 and 14 days.\"\"\"\n    if not topic.strip():\n        return {\"ok\": False, \"error\": \"Topic cannot be empty.\"}\n    safe_days, warning = clamp_days(days)\n    plan = []\n    for day in range(1, safe_days + 1):\n        plan.append({\n            \"day\": day,\n            \"focus\": f\"Study part {day} of {topic}\",",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "generate_revision_checklist",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "def generate_revision_checklist(topic: str) -> dict:\n    \"\"\"Generate a short checklist for reviewing a topic.\"\"\"\n    if not topic.strip():\n        return {\"ok\": False, \"error\": \"Topic cannot be empty.\"}\n    return {\n        \"ok\": True,\n        \"topic\": topic,\n        \"checklist\": [\n            f\"Define {topic} in your own words.\",\n            f\"List the main components of {topic}.\",",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "course_outline",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "def course_outline() -> str:\n    return \"Core modules: AI foundations, APIs, backend, database, RAG, agents, MCP, deployment.\"\n@mcp.prompt()\ndef quiz_prompt(topic: str, num_questions: int = 5) -> str:\n    return f\"Create {num_questions} multiple-choice questions about {topic}. Include answers and explanations.\"\nif __name__ == \"__main__\":\n    mcp.run(transport=\"stdio\")",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "quiz_prompt",
+        "kind": 2,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "def quiz_prompt(topic: str, num_questions: int = 5) -> str:\n    return f\"Create {num_questions} multiple-choice questions about {topic}. Include answers and explanations.\"\nif __name__ == \"__main__\":\n    mcp.run(transport=\"stdio\")",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "mcp",
+        "kind": 5,
+        "importPath": "ai developer.python.mcp.mcp_demo.server",
+        "description": "ai developer.python.mcp.mcp_demo.server",
+        "peekOfCode": "mcp = FastMCP(\"Calculator Server\")\ndef clamp_days(days: int) -> tuple[int, str | None]:\n    if days < 1:\n        return 1, \"Days was too low, so it was changed to 1.\"\n    if days > 14:\n        return 14, \"Days was too high, so it was changed to 14.\"\n    return days, None\n@mcp.tool()\ndef add(a: int, b: int) -> int:\n    \"\"\"Add two numbers.\"\"\"",
+        "detail": "ai developer.python.mcp.mcp_demo.server",
         "documentation": {}
     }
 ]
