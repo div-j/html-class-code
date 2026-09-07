@@ -40,6 +40,14 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -59,6 +67,22 @@
     },
     {
         "label": "create_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentExecutor",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "create_tool_calling_agent",
         "importPath": "langchain.agents",
         "description": "langchain.agents",
         "isExtraImport": true,
@@ -364,6 +388,14 @@
         "documentation": {}
     },
     {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "StreamingResponse",
         "importPath": "fastapi.responses",
         "description": "fastapi.responses",
@@ -634,6 +666,64 @@
         "importPath": "re",
         "description": "re",
         "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "add_routes",
+        "importPath": "langserve",
+        "description": "langserve",
+        "isExtraImport": true,
+        "detail": "langserve",
+        "documentation": {}
+    },
+    {
+        "label": "get_agent_executor",
+        "importPath": "app.agent",
+        "description": "app.agent",
+        "isExtraImport": true,
+        "detail": "app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "gradio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gradio",
+        "description": "gradio",
+        "detail": "gradio",
         "documentation": {}
     },
     {
@@ -1003,6 +1093,132 @@
         "description": "ai developer.python.RAG.HealthGuard.app.schemas",
         "peekOfCode": "class MedicalChatResponse(BaseModel):\n    answer: str\n    was_blocked: bool = False\n    reason: Optional[str] = None",
         "detail": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.study-agent.app.agent",
+        "description": "ai developer.python.RAG.study-agent.app.agent",
+        "peekOfCode": "def get_llm():\n    provider = os.getenv(\"LLM_PROVIDER\", \"ollama\").lower()\n    if provider == \"ollama\":\n        from langchain_ollama import ChatOllama\n        return ChatOllama(model=os.getenv(\"OLLAMA_MODEL\", \"llama3.2\"), temperature=0.3)\n    elif provider == \"groq\":\n        from langchain_groq import ChatGroq\n        return ChatGroq(\n            model=os.getenv(\"GROQ_MODEL\", \"openai/gpt-oss-20b\"),\n            api_key=os.getenv(\"GROQ_API_KEY\"),",
+        "detail": "ai developer.python.RAG.study-agent.app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "calculator",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.study-agent.app.agent",
+        "description": "ai developer.python.RAG.study-agent.app.agent",
+        "peekOfCode": "def calculator(expression: str) -> str:\n    \"\"\"Evaluate a basic math expression. Example: '25 * 4 + 10'\"\"\"\n    try:\n        return str(eval(expression))\n    except Exception as e:\n        return f\"Error: {e}\"\n@tool\ndef get_current_topic() -> str:\n    \"\"\"Return the current study topic (demo tool).\"\"\"\n    return \"Python programming and LangChain agents\"",
+        "detail": "ai developer.python.RAG.study-agent.app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_topic",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.study-agent.app.agent",
+        "description": "ai developer.python.RAG.study-agent.app.agent",
+        "peekOfCode": "def get_current_topic() -> str:\n    \"\"\"Return the current study topic (demo tool).\"\"\"\n    return \"Python programming and LangChain agents\"\ntools = [calculator, get_current_topic]\nllm = get_llm()\nprompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are a helpful study assistant. Use tools when needed.\"),\n    MessagesPlaceholder(variable_name=\"chat_history\", optional=True),\n    (\"human\", \"{input}\"),\n    MessagesPlaceholder(variable_name=\"agent_scratchpad\"),",
+        "detail": "ai developer.python.RAG.study-agent.app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.app.agent",
+        "description": "ai developer.python.RAG.study-agent.app.agent",
+        "peekOfCode": "tools = [calculator, get_current_topic]\nllm = get_llm()\nprompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are a helpful study assistant. Use tools when needed.\"),\n    MessagesPlaceholder(variable_name=\"chat_history\", optional=True),\n    (\"human\", \"{input}\"),\n    MessagesPlaceholder(variable_name=\"agent_scratchpad\"),\n])\nagent = create_tool_calling_agent(llm, tools, prompt)\nagent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)",
+        "detail": "ai developer.python.RAG.study-agent.app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.app.agent",
+        "description": "ai developer.python.RAG.study-agent.app.agent",
+        "peekOfCode": "llm = get_llm()\nprompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are a helpful study assistant. Use tools when needed.\"),\n    MessagesPlaceholder(variable_name=\"chat_history\", optional=True),\n    (\"human\", \"{input}\"),\n    MessagesPlaceholder(variable_name=\"agent_scratchpad\"),\n])\nagent = create_tool_calling_agent(llm, tools, prompt)\nagent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)",
+        "detail": "ai developer.python.RAG.study-agent.app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.app.agent",
+        "description": "ai developer.python.RAG.study-agent.app.agent",
+        "peekOfCode": "prompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are a helpful study assistant. Use tools when needed.\"),\n    MessagesPlaceholder(variable_name=\"chat_history\", optional=True),\n    (\"human\", \"{input}\"),\n    MessagesPlaceholder(variable_name=\"agent_scratchpad\"),\n])\nagent = create_tool_calling_agent(llm, tools, prompt)\nagent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)",
+        "detail": "ai developer.python.RAG.study-agent.app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "agent",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.app.agent",
+        "description": "ai developer.python.RAG.study-agent.app.agent",
+        "peekOfCode": "agent = create_tool_calling_agent(llm, tools, prompt)\nagent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)",
+        "detail": "ai developer.python.RAG.study-agent.app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "agent_executor",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.app.agent",
+        "description": "ai developer.python.RAG.study-agent.app.agent",
+        "peekOfCode": "agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)",
+        "detail": "ai developer.python.RAG.study-agent.app.agent",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.study-agent.app.server",
+        "description": "ai developer.python.RAG.study-agent.app.server",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\", \"service\": \"LangServe Agent\"}\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(\"app.server:app\", host=\"0.0.0.0\", port=8000, reload=True)",
+        "detail": "ai developer.python.RAG.study-agent.app.server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.app.server",
+        "description": "ai developer.python.RAG.study-agent.app.server",
+        "peekOfCode": "app = FastAPI(\n    title=\"StudyPulse Agent API\",\n    version=\"1.0\",\n    description=\"LangServe backend exposing a Llama-3-powered agent\"\n)\nagent_executor = get_agent_executor()\n# Expose agent via LangServe under /agent route\nadd_routes(\n    app,\n    agent_executor,",
+        "detail": "ai developer.python.RAG.study-agent.app.server",
+        "documentation": {}
+    },
+    {
+        "label": "agent_executor",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.app.server",
+        "description": "ai developer.python.RAG.study-agent.app.server",
+        "peekOfCode": "agent_executor = get_agent_executor()\n# Expose agent via LangServe under /agent route\nadd_routes(\n    app,\n    agent_executor,\n    path=\"/agent\"\n)\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\", \"service\": \"LangServe Agent\"}",
+        "detail": "ai developer.python.RAG.study-agent.app.server",
+        "documentation": {}
+    },
+    {
+        "label": "chat_with_agent",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.study-agent.frontend.app",
+        "description": "ai developer.python.RAG.study-agent.frontend.app",
+        "peekOfCode": "def chat_with_agent(user_message, history):\n    payload = {\n        \"input\": {\n            \"input\": user_message\n        }\n    }\n    try:\n        response = requests.post(LANGSERVE_URL, json=payload, timeout=30)\n        response.raise_for_status()\n        data = response.json()",
+        "detail": "ai developer.python.RAG.study-agent.frontend.app",
+        "documentation": {}
+    },
+    {
+        "label": "LANGSERVE_URL",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.frontend.app",
+        "description": "ai developer.python.RAG.study-agent.frontend.app",
+        "peekOfCode": "LANGSERVE_URL = os.getenv(\"LANGSERVE_URL\", \"http://127.0.0.1:8000/agent/invoke\")\ndef chat_with_agent(user_message, history):\n    payload = {\n        \"input\": {\n            \"input\": user_message\n        }\n    }\n    try:\n        response = requests.post(LANGSERVE_URL, json=payload, timeout=30)\n        response.raise_for_status()",
+        "detail": "ai developer.python.RAG.study-agent.frontend.app",
+        "documentation": {}
+    },
+    {
+        "label": "demo",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.study-agent.frontend.app",
+        "description": "ai developer.python.RAG.study-agent.frontend.app",
+        "peekOfCode": "demo = gr.ChatInterface(\n    fn=chat_with_agent,\n    title=\"🚀 StudyPulse AI Agent\",\n    description=\"Interact with the Llama-3 powered LangChain agent served via LangServe.\",\n    examples=[\"Calculate study hours for 5 hard topics\", \"Explain gradient descent in simple terms\"]\n)\nif __name__ == \"__main__\":\n    demo.launch(server_name=\"0.0.0.0\", server_port=7860)",
+        "detail": "ai developer.python.RAG.study-agent.frontend.app",
         "documentation": {}
     }
 ]

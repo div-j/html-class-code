@@ -1,0 +1,11 @@
+
+services:
+  studypulse-app:
+    build: .
+    container_name: studypulse_container
+    ports:
+      - "8000:8000"  # LangServe REST API
+      - "7860:7860"  # Gradio Web UI
+    env_file:
+      - .env
+    restart: unless-stopped
