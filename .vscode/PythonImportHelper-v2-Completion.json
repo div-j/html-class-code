@@ -24,6 +24,14 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -100,6 +108,46 @@
         "documentation": {}
     },
     {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "HumanMessage",
         "importPath": "langchain_core.messages",
         "description": "langchain_core.messages",
@@ -161,6 +209,150 @@
         "description": "mcp.server.fastmcp",
         "isExtraImport": true,
         "detail": "mcp.server.fastmcp",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizRequest",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizOutput",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "stream_chat_response",
+        "importPath": "app.llm",
+        "description": "app.llm",
+        "isExtraImport": true,
+        "detail": "app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "generate_json_response",
+        "importPath": "app.llm",
+        "description": "app.llm",
+        "isExtraImport": true,
+        "detail": "app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "stop_after_attempt",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "wait_exponential",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "retry_if_exception",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "ai",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
         "documentation": {}
     },
     {
@@ -305,6 +497,87 @@
         "description": "ai developer.python.mcp.mcp_demo.server",
         "peekOfCode": "mcp = FastMCP(\"Calculator Server\")\ndef clamp_days(days: int) -> tuple[int, str | None]:\n    if days < 1:\n        return 1, \"Days was too low, so it was changed to 1.\"\n    if days > 14:\n        return 14, \"Days was too high, so it was changed to 14.\"\n    return days, None\n@mcp.tool()\ndef add(a: int, b: int) -> int:\n    \"\"\"Add two numbers.\"\"\"",
         "detail": "ai developer.python.mcp.mcp_demo.server",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.routers.ai",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.routers.ai",
+        "peekOfCode": "router = APIRouter(tags=[\"AI\"])\n@router.post(\"/chat\")\nasync def chat_endpoint(request: ChatRequest):\n    messages = [\n        {\n            \"role\": \"system\",\n            \"content\": \"You are a helpful AI study assistant. Answer clearly and concisely.\"\n        },\n        {\n            \"role\": \"user\",",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.routers.ai",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_provider",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "peekOfCode": "def get_llm_provider() -> str:\n    return os.getenv(\"LLM_PROVIDER\", \"groq\").lower()\ndef is_rate_limit_error(exception: BaseException) -> bool:\n    \"\"\"Detect 429 / rate-limit errors across providers.\"\"\"\n    # Mistral\n    try:\n        from mistralai.client.errors.sdkerror import SDKError\n        if isinstance(exception, SDKError) and getattr(exception, \"status_code\", None) == 429:\n            return True\n    except ImportError:",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "is_rate_limit_error",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "peekOfCode": "def is_rate_limit_error(exception: BaseException) -> bool:\n    \"\"\"Detect 429 / rate-limit errors across providers.\"\"\"\n    # Mistral\n    try:\n        from mistralai.client.errors.sdkerror import SDKError\n        if isinstance(exception, SDKError) and getattr(exception, \"status_code\", None) == 429:\n            return True\n    except ImportError:\n        pass\n    # Groq / OpenAI style",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "rate_limit_retry",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "peekOfCode": "rate_limit_retry = retry(\n    retry=retry_if_exception(is_rate_limit_error),\n    stop=stop_after_attempt(5),\n    wait=wait_exponential(multiplier=2, min=3, max=30),\n    reraise=True,\n)\nasync def stream_chat_response(messages: List[Dict[str, str]]) -> AsyncGenerator[str, None]:\n    provider = get_llm_provider()\n    print(f\"Using LLM provider: {provider}\")\n    if provider == \"groq\":",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.main",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"AI Study Assistant API\",\n    description=\"FastAPI service supporting OpenAI and Mistral with streaming and JSON quiz generation.\"\n)\napp.include_router(ai.router)\n@app.get(\"/\")\nasync def root():\n    return {\"status\": \"ok\", \"message\": \"AI Study Assistant Service is running.\"}",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    content: str = Field(..., description=\"User message text\")\nclass QuizQuestion(BaseModel):\n    question: str\n    options: List[str]\n    correct_answer: str\n    explanation: str\nclass QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizQuestion",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "peekOfCode": "class QuizQuestion(BaseModel):\n    question: str\n    options: List[str]\n    correct_answer: str\n    explanation: str\nclass QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]\nclass QuizRequest(BaseModel):\n    topic: str",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizOutput",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "peekOfCode": "class QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]\nclass QuizRequest(BaseModel):\n    topic: str\n    num_questions: int = Field(default=3, ge=1, le=10)",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "description": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "peekOfCode": "class QuizRequest(BaseModel):\n    topic: str\n    num_questions: int = Field(default=3, ge=1, le=10)",
+        "detail": "ai developer.python.RAG.ai-study-assistant.app.schemas",
         "documentation": {}
     }
 ]
