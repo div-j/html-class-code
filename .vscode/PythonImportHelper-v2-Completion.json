@@ -32,6 +32,14 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -148,6 +156,70 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "HumanMessage",
         "importPath": "langchain_core.messages",
         "description": "langchain_core.messages",
@@ -244,6 +316,62 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "StreamingResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
         "label": "StreamingResponse",
         "importPath": "fastapi.responses",
         "description": "fastapi.responses",
@@ -253,6 +381,38 @@
     },
     {
         "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -300,6 +460,46 @@
         "documentation": {}
     },
     {
+        "label": "ChatRequest",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizRequest",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizOutput",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "MedicalChatRequest",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "MedicalChatResponse",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
         "label": "stream_chat_response",
         "importPath": "app.llm",
         "description": "app.llm",
@@ -313,6 +513,62 @@
         "description": "app.llm",
         "isExtraImport": true,
         "detail": "app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "stream_chat_response",
+        "importPath": "app.llm",
+        "description": "app.llm",
+        "isExtraImport": true,
+        "detail": "app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "generate_json_response",
+        "importPath": "app.llm",
+        "description": "app.llm",
+        "isExtraImport": true,
+        "detail": "app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "stream_chat_response",
+        "importPath": "app.llm",
+        "description": "app.llm",
+        "isExtraImport": true,
+        "detail": "app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "stop_after_attempt",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "wait_exponential",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "retry_if_exception",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
         "documentation": {}
     },
     {
@@ -353,6 +609,31 @@
         "description": "app.routers",
         "isExtraImport": true,
         "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "ai",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "healthguard",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
@@ -578,6 +859,150 @@
         "description": "ai developer.python.RAG.ai-study-assistant.app.schemas",
         "peekOfCode": "class QuizRequest(BaseModel):\n    topic: str\n    num_questions: int = Field(default=3, ge=1, le=10)",
         "detail": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.routers.ai",
+        "description": "ai developer.python.RAG.HealthGuard.app.routers.ai",
+        "peekOfCode": "router = APIRouter(tags=[\"AI\"])\n@router.post(\"/chat\")\nasync def chat_endpoint(request: ChatRequest):\n    messages = [\n        {\n            \"role\": \"system\",\n            \"content\": \"You are a helpful AI study assistant. Answer clearly and concisely.\"\n        },\n        {\n            \"role\": \"user\",",
+        "detail": "ai developer.python.RAG.HealthGuard.app.routers.ai",
+        "documentation": {}
+    },
+    {
+        "label": "contains_unsafe_advice",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "description": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "peekOfCode": "def contains_unsafe_advice(text: str) -> bool:\n    return any(p.search(text) for p in COMPILED_PATTERNS)\n# ---------- System prompt – allows basic care, blocks dangerous advice ----------\nMEDICAL_SYSTEM_PROMPT = \"\"\"\nYou are a careful health-information assistant for people in Nigeria and other parts of Africa.\nMany users have limited money or live far from hospitals and pharmacies.\nWhat you CAN do:\n- Give general first-aid and basic care advice (rest, fluids, oral rehydration, cooling a fever, hygiene, mosquito protection, etc.)\n- Explain common danger signs that mean the person should try to reach help\n- Share widely accepted public-health information",
+        "detail": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "description": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "peekOfCode": "router = APIRouter(prefix=\"/medical\", tags=[\"Medical\"])\n# ---------- Patterns that are still too dangerous ----------\n# We only block clear attempts to prescribe or diagnose\nUNSAFE_PATTERNS = [\n    r\"\\b(take|swallow|inject)\\s+\\d+\\s*(mg|ml|tablet|capsule)s?\\b\",\n    r\"\\b(you have|this is|it is)\\s+(malaria|typhoid|HIV|pneumonia|diabetes|hypertension)\\b\",\n    r\"\\b(stop taking|discontinue)\\s+(your\\s+)?(medication|drugs|ARVs|insulin)\\b\",\n    r\"\\bprescri(be|ption)\\b\",\n    r\"\\b(diagnose|diagnosis)\\b\",\n]",
+        "detail": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "documentation": {}
+    },
+    {
+        "label": "UNSAFE_PATTERNS",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "description": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "peekOfCode": "UNSAFE_PATTERNS = [\n    r\"\\b(take|swallow|inject)\\s+\\d+\\s*(mg|ml|tablet|capsule)s?\\b\",\n    r\"\\b(you have|this is|it is)\\s+(malaria|typhoid|HIV|pneumonia|diabetes|hypertension)\\b\",\n    r\"\\b(stop taking|discontinue)\\s+(your\\s+)?(medication|drugs|ARVs|insulin)\\b\",\n    r\"\\bprescri(be|ption)\\b\",\n    r\"\\b(diagnose|diagnosis)\\b\",\n]\nCOMPILED_PATTERNS = [re.compile(p, re.IGNORECASE) for p in UNSAFE_PATTERNS]\ndef contains_unsafe_advice(text: str) -> bool:\n    return any(p.search(text) for p in COMPILED_PATTERNS)",
+        "detail": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "documentation": {}
+    },
+    {
+        "label": "COMPILED_PATTERNS",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "description": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "peekOfCode": "COMPILED_PATTERNS = [re.compile(p, re.IGNORECASE) for p in UNSAFE_PATTERNS]\ndef contains_unsafe_advice(text: str) -> bool:\n    return any(p.search(text) for p in COMPILED_PATTERNS)\n# ---------- System prompt – allows basic care, blocks dangerous advice ----------\nMEDICAL_SYSTEM_PROMPT = \"\"\"\nYou are a careful health-information assistant for people in Nigeria and other parts of Africa.\nMany users have limited money or live far from hospitals and pharmacies.\nWhat you CAN do:\n- Give general first-aid and basic care advice (rest, fluids, oral rehydration, cooling a fever, hygiene, mosquito protection, etc.)\n- Explain common danger signs that mean the person should try to reach help",
+        "detail": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "documentation": {}
+    },
+    {
+        "label": "MEDICAL_SYSTEM_PROMPT",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "description": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "peekOfCode": "MEDICAL_SYSTEM_PROMPT = \"\"\"\nYou are a careful health-information assistant for people in Nigeria and other parts of Africa.\nMany users have limited money or live far from hospitals and pharmacies.\nWhat you CAN do:\n- Give general first-aid and basic care advice (rest, fluids, oral rehydration, cooling a fever, hygiene, mosquito protection, etc.)\n- Explain common danger signs that mean the person should try to reach help\n- Share widely accepted public-health information\nWhat you must NEVER do:\n- Diagnose any disease (“you have malaria”, “this is typhoid”)\n- Recommend a specific medicine name + dosage",
+        "detail": "ai developer.python.RAG.HealthGuard.app.routers.healthguard",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_provider",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.llm",
+        "description": "ai developer.python.RAG.HealthGuard.app.llm",
+        "peekOfCode": "def get_llm_provider() -> str:\n    return os.getenv(\"LLM_PROVIDER\", \"groq\").lower()\ndef is_rate_limit_error(exception: BaseException) -> bool:\n    \"\"\"Detect 429 / rate-limit errors across providers.\"\"\"\n    # Mistral\n    try:\n        from mistralai.client.errors.sdkerror import SDKError\n        if isinstance(exception, SDKError) and getattr(exception, \"status_code\", None) == 429:\n            return True\n    except ImportError:",
+        "detail": "ai developer.python.RAG.HealthGuard.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "is_rate_limit_error",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.llm",
+        "description": "ai developer.python.RAG.HealthGuard.app.llm",
+        "peekOfCode": "def is_rate_limit_error(exception: BaseException) -> bool:\n    \"\"\"Detect 429 / rate-limit errors across providers.\"\"\"\n    # Mistral\n    try:\n        from mistralai.client.errors.sdkerror import SDKError\n        if isinstance(exception, SDKError) and getattr(exception, \"status_code\", None) == 429:\n            return True\n    except ImportError:\n        pass\n    # Groq / OpenAI style",
+        "detail": "ai developer.python.RAG.HealthGuard.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "rate_limit_retry",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.llm",
+        "description": "ai developer.python.RAG.HealthGuard.app.llm",
+        "peekOfCode": "rate_limit_retry = retry(\n    retry=retry_if_exception(is_rate_limit_error),\n    stop=stop_after_attempt(5),\n    wait=wait_exponential(multiplier=2, min=3, max=30),\n    reraise=True,\n)\nasync def stream_chat_response(messages: List[Dict[str, str]]) -> AsyncGenerator[str, None]:\n    provider = get_llm_provider()\n    print(f\"Using LLM provider: {provider}\")\n    if provider == \"groq\":",
+        "detail": "ai developer.python.RAG.HealthGuard.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.main",
+        "description": "ai developer.python.RAG.HealthGuard.app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"AI Study Assistant API\",\n    description=\"FastAPI service supporting OpenAI and Mistral with streaming and JSON quiz generation.\"\n)\napp.include_router(ai.router)\napp.include_router(healthguard.router)\n@app.get(\"/\")\nasync def root():\n    return {\"status\": \"ok\", \"message\": \"AI Study Assistant Service is running.\"}",
+        "detail": "ai developer.python.RAG.HealthGuard.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "description": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    content: str = Field(..., description=\"User message text\")\nclass QuizQuestion(BaseModel):\n    question: str\n    options: List[str]\n    correct_answer: str\n    explanation: str\nclass QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]",
+        "detail": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizQuestion",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "description": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "peekOfCode": "class QuizQuestion(BaseModel):\n    question: str\n    options: List[str]\n    correct_answer: str\n    explanation: str\nclass QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]\nclass QuizRequest(BaseModel):\n    topic: str",
+        "detail": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizOutput",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "description": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "peekOfCode": "class QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]\nclass QuizRequest(BaseModel):\n    topic: str\n    num_questions: int = Field(default=3, ge=1, le=10)\nclass MedicalChatRequest(BaseModel):\n    message: str\n    # history: Optional[List[dict]] = []\nclass MedicalChatResponse(BaseModel):",
+        "detail": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "description": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "peekOfCode": "class QuizRequest(BaseModel):\n    topic: str\n    num_questions: int = Field(default=3, ge=1, le=10)\nclass MedicalChatRequest(BaseModel):\n    message: str\n    # history: Optional[List[dict]] = []\nclass MedicalChatResponse(BaseModel):\n    answer: str\n    was_blocked: bool = False\n    reason: Optional[str] = None",
+        "detail": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "MedicalChatRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "description": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "peekOfCode": "class MedicalChatRequest(BaseModel):\n    message: str\n    # history: Optional[List[dict]] = []\nclass MedicalChatResponse(BaseModel):\n    answer: str\n    was_blocked: bool = False\n    reason: Optional[str] = None",
+        "detail": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "MedicalChatResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "description": "ai developer.python.RAG.HealthGuard.app.schemas",
+        "peekOfCode": "class MedicalChatResponse(BaseModel):\n    answer: str\n    was_blocked: bool = False\n    reason: Optional[str] = None",
+        "detail": "ai developer.python.RAG.HealthGuard.app.schemas",
         "documentation": {}
     }
 ]
