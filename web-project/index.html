@@ -218,9 +218,9 @@
                 Question 4 of 10
               </p>
               <p
-                class="badge text-danger-subtle bg-danger-subtle p-2 mb-0 rounded-pill"
+                class="badge text-danger bg-danger-subtle p-2 mb-0 rounded-pill"
               >
-                <i class="bi bi-clock m-1"></i>00:12
+                <i id="time" class="bi bi-clock m-1"></i>00:20
               </p>
             </span>
             <div class="card rounded-4 shadow-sm mt-3 overflow-hidden">
@@ -252,11 +252,17 @@
             </div>
             <!-- Submit Button -->
             <div class="d-grid d-md-flex justify-content-md-end mt-4">
+      
+                <p class="mb-0" id="score">
+                
+                </p>
+             
               <button
+              id="nextButton"
                 class="btn btn-primary btn-lg px-5 py-3 rounded-3 fw-semibold"
                 onclick="nextQuestion()"
               >
-                Submit Answer
+                Next Question
                 <i class="bi bi-arrow-right ms-2"></i>
               </button>
             </div>
@@ -266,34 +272,61 @@
     </div>
 
     <script>
-      let questions = [
-        {
-          question: "What is the largest planet in our solar system?",
-          category: "Astronomy",
-          options: ["Mars", "Venus", "Jupiter", "Saturn"],
-        },
+         const questions = [
+  {
+    question: "What is the largest planet in our solar system?",
+    category: "Astronomy",
+    options: [
+      "Mars",
+      "Venus",
+      "Jupiter",
+      "Saturn"
+    ],
+    answer: "Jupiter"
+  },
 
-        {
-          question: "What is the closest planet to the Sun?",
-          category: "Astronomy",
-          options: ["Earth", "Mercury", "Venus", "Mars"],
-        },
+  {
+    question: "What is the closest planet to the Sun?",
+    category: "Astronomy",
+    options: [
+      "Earth",
+      "Mercury",
+      "Venus",
+      "Mars"
+    ],
+    answer: "Mercury"
+  },
 
-        {
-          question: "How many continents are there?",
-          category: "Geography",
-          options: ["5", "6", "7", "8"],
-        },
+  {
+    question: "How many continents are there?",
+    category: "Geography",
+    options: [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    answer: "7"
+  },
 
-        {
-          question: "What is the capital of Nigeria?",
-          category: "Geography",
-          options: ["Lagos", "Kano", "Abuja", "Ibadan"],
-        },
-      ];
+  {
+    question: "What is the capital of Nigeria?",
+    category: "Geography",
+    options: [
+      "Lagos",
+      "Kano",
+      "Abuja",
+      "Ibadan"
+    ],
+    answer: "Abuja"
+  }
+];
 
       let opLetters = ["A", "B", "C", "D"];
       let q = 0;
+      let score = 0;
+      let timeLeft = 20;
+      let timer;
 
       questionVar = document.getElementById("optionContainer");
 
@@ -310,26 +343,77 @@
           l++;
           questionVar.innerHTML += `
   <div class="col-12 col-md-6">
-    <input type="radio" class="btn-check" name="quizOption" id="optionA" autocomplete="off">
-    <label class="btn btn-outline-secondary w-100 text-start d-flex justify-content-between align-items-center py-3 px-3 rounded-3" for="optionA">
+    <div onclick="showValue(this)" class="btn btn-outline-secondary  w-100 text-start d-flex justify-content-between align-items-center py-3 px-3 rounded-3" id="label${letter}" >
       <span class="fw-semibold text-primary">${letter}. ${op}</span>
-      <i class="bi bi-circle"></i>
-    </label>
+      <i class="bi bi-circle" id="icon${letter}"></i>
+    </div>
   </div>`;
         }
+        // hide next button unless user selects an answer
+        document.querySelector("#nextButton").classList.add("d-none");
+
+        startTimer();
       }
 
       function nextQuestion() {
         q++;
-        console.log(q);
-        if (q >= questions.length) {
-          alert("Quiz completed!");
+// adding score feed back
+        if(q >= questions.length){
+          document.getElementById("nextButton").innerText = "Finish Quiz, Score: " + score;
           return;
+
+          
         }
         loadQuestion();
       }
 
       loadQuestion();
+
+
+
+      function showValue(value){
+        correctAnswer = questions[q].answer
+        selectedAnswer = value.innerText.split(". ")[1]
+
+            if (selectedAnswer == correctAnswer){
+          value.classList.remove("btn-outline-secondary");
+          value.classList.add("bg-success-subtle");
+          value.classList.add("border-success");
+          document.getElementById(`icon${value.innerText.split(". ")[0]}`).classList.remove("bi-circle");
+
+          score++;
+          // document.getElementById("score").innerText = score
+    
+}else{
+          value.classList.remove("btn-outline-secondary");
+          value.classList.add("bg-danger-subtle");
+          value.classList.add("border-danger");
+          document.getElementById(`icon${value.innerText.split(". ")[0]}`).classList.remove("bi-circle");
+        }
+
+        // show next button after user selects an answer
+        document.querySelector("#nextButton").classList.remove("d-none");
+
+    
+      }
+
+      
+      function startTimer() {
+
+        clearInterval(timer);
+        timeLeft = 20;
+        document.getElementById("time").innerText = `00:${timeLeft}`;
+        timer = setInterval(function() {
+          timeLeft--;
+          document.getElementById("time").innerText = `00:${timeLeft < 10 ? "0" + timeLeft : timeLeft}`;
+          if (timeLeft <= 0) {
+            clearInterval(timer);
+            alert("Time's up!");
+            nextQuestion();
+          }
+
+        }, 1000);
+      }
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
