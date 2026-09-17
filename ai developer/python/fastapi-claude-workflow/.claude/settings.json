@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "pytest",
+      "git status",
+      "git diff",
+      "git log",
+      "flake8"
+    ],
+    "deny": [
+      "cat .env*",
+      "cat secrets/*",
+      "printenv",
+      "env",
+      "rm -rf *",
+      "git push --force"
+    ]
+  },
+  "denyPaths": [
+    ".env",
+    ".env.*",
+    "secrets/**"
+  ]
+}

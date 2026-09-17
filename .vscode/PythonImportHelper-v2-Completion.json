@@ -48,12 +48,229 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "APP_VERSION",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
         "documentation": {}
     },
     {
@@ -133,6 +350,46 @@
     },
     {
         "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -308,91 +565,11 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "StreamingResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
         "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "fastapi.responses",
         "documentation": {}
     },
     {
@@ -421,6 +598,54 @@
     },
     {
         "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -485,6 +710,46 @@
     },
     {
         "label": "QuizOutput",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizRequest",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizOutput",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "StudyPlanResponse",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "StudyPlanRequest",
         "importPath": "app.schemas",
         "description": "app.schemas",
         "isExtraImport": true,
@@ -572,6 +837,54 @@
         "documentation": {}
     },
     {
+        "label": "generate_json_response",
+        "importPath": "app.llm",
+        "description": "app.llm",
+        "isExtraImport": true,
+        "detail": "app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "stream_chat_response",
+        "importPath": "app.llm",
+        "description": "app.llm",
+        "isExtraImport": true,
+        "detail": "app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "stop_after_attempt",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "wait_exponential",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
+        "label": "retry_if_exception",
+        "importPath": "tenacity",
+        "description": "tenacity",
+        "isExtraImport": true,
+        "detail": "tenacity",
+        "documentation": {}
+    },
+    {
         "label": "retry",
         "importPath": "tenacity",
         "description": "tenacity",
@@ -637,6 +950,22 @@
     },
     {
         "label": "ai",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "ai",
+        "importPath": "app.routers",
+        "description": "app.routers",
+        "isExtraImport": true,
+        "detail": "app.routers",
+        "documentation": {}
+    },
+    {
+        "label": "study_plan",
         "importPath": "app.routers",
         "description": "app.routers",
         "isExtraImport": true,
@@ -751,6 +1080,87 @@
         "description": "ai developer.python.ai-assistance.main",
         "peekOfCode": "chat_completion = client.chat.completions.create(\n    messages=[\n         {\n        \"role\": \"system\",\n        \"content\": \"you are a study assistant\"\n      },\n        {\n            \"role\": \"user\",\n            \"content\": \"hi\",\n        }",
         "detail": "ai developer.python.ai-assistance.main",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi-claude-workflow.app.main",
+        "description": "ai developer.python.fastapi-claude-workflow.app.main",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\"}\n@app.get(\"/health-details\")\ndef health_details():\n    \"\"\"Return basic health info including status, version, and uptime in seconds.\"\"\"\n    now = datetime.datetime.utcnow()\n    uptime_seconds = int((now - START_TIME).total_seconds())\n    return {\n        \"status\": \"ok\",\n        \"version\": APP_VERSION,",
+        "detail": "ai developer.python.fastapi-claude-workflow.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "health_details",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi-claude-workflow.app.main",
+        "description": "ai developer.python.fastapi-claude-workflow.app.main",
+        "peekOfCode": "def health_details():\n    \"\"\"Return basic health info including status, version, and uptime in seconds.\"\"\"\n    now = datetime.datetime.utcnow()\n    uptime_seconds = int((now - START_TIME).total_seconds())\n    return {\n        \"status\": \"ok\",\n        \"version\": APP_VERSION,\n        \"uptime_seconds\": uptime_seconds,\n    }",
+        "detail": "ai developer.python.fastapi-claude-workflow.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi-claude-workflow.app.main",
+        "description": "ai developer.python.fastapi-claude-workflow.app.main",
+        "peekOfCode": "app = FastAPI(title=\"Claude Code Checkpoint API\")\n# Application version and start time for uptime calculations\nAPP_VERSION = \"0.1.0\"\nSTART_TIME = datetime.datetime.utcnow()\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\"}\n@app.get(\"/health-details\")\ndef health_details():\n    \"\"\"Return basic health info including status, version, and uptime in seconds.\"\"\"",
+        "detail": "ai developer.python.fastapi-claude-workflow.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "APP_VERSION",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi-claude-workflow.app.main",
+        "description": "ai developer.python.fastapi-claude-workflow.app.main",
+        "peekOfCode": "APP_VERSION = \"0.1.0\"\nSTART_TIME = datetime.datetime.utcnow()\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\"}\n@app.get(\"/health-details\")\ndef health_details():\n    \"\"\"Return basic health info including status, version, and uptime in seconds.\"\"\"\n    now = datetime.datetime.utcnow()\n    uptime_seconds = int((now - START_TIME).total_seconds())",
+        "detail": "ai developer.python.fastapi-claude-workflow.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "START_TIME",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi-claude-workflow.app.main",
+        "description": "ai developer.python.fastapi-claude-workflow.app.main",
+        "peekOfCode": "START_TIME = datetime.datetime.utcnow()\n@app.get(\"/health\")\ndef health_check():\n    return {\"status\": \"ok\"}\n@app.get(\"/health-details\")\ndef health_details():\n    \"\"\"Return basic health info including status, version, and uptime in seconds.\"\"\"\n    now = datetime.datetime.utcnow()\n    uptime_seconds = int((now - START_TIME).total_seconds())\n    return {",
+        "detail": "ai developer.python.fastapi-claude-workflow.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "test_health_details",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "description": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "peekOfCode": "def test_health_details():\n    resp = client.get(\"/health-details\")\n    assert resp.status_code == 200\n    data = resp.json()\n    assert data.get(\"status\") == \"ok\"\n    assert data.get(\"version\") == APP_VERSION\n    assert isinstance(data.get(\"uptime_seconds\"), int)\n    assert data.get(\"uptime_seconds\") >= 0\nfrom fastapi.testclient import TestClient\nfrom app.main import app",
+        "detail": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "documentation": {}
+    },
+    {
+        "label": "test_health",
+        "kind": 2,
+        "importPath": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "description": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "peekOfCode": "def test_health():\n    response = client.get(\"/health\")\n    assert response.status_code == 200\n    assert response.json() == {\"status\": \"ok\"}",
+        "detail": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "description": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "peekOfCode": "client = TestClient(app)\ndef test_health_details():\n    resp = client.get(\"/health-details\")\n    assert resp.status_code == 200\n    data = resp.json()\n    assert data.get(\"status\") == \"ok\"\n    assert data.get(\"version\") == APP_VERSION\n    assert isinstance(data.get(\"uptime_seconds\"), int)\n    assert data.get(\"uptime_seconds\") >= 0\nfrom fastapi.testclient import TestClient",
+        "detail": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "description": "ai developer.python.fastapi-claude-workflow.tests.test_health",
+        "peekOfCode": "client = TestClient(app)\ndef test_health():\n    response = client.get(\"/health\")\n    assert response.status_code == 200\n    assert response.json() == {\"status\": \"ok\"}",
+        "detail": "ai developer.python.fastapi-claude-workflow.tests.test_health",
         "documentation": {}
     },
     {
@@ -949,6 +1359,132 @@
         "description": "ai developer.python.RAG.ai-study-assistant.app.schemas",
         "peekOfCode": "class QuizRequest(BaseModel):\n    topic: str\n    num_questions: int = Field(default=3, ge=1, le=10)",
         "detail": "ai developer.python.RAG.ai-study-assistant.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.automation.app.routers.ai",
+        "description": "ai developer.python.RAG.automation.app.routers.ai",
+        "peekOfCode": "router = APIRouter(tags=[\"AI\"])\n@router.post(\"/chat\")\nasync def chat_endpoint(request: ChatRequest):\n    messages = [\n        {\n            \"role\": \"system\",\n            \"content\": \"You are a helpful AI study assistant. Answer clearly and concisely.\"\n        },\n        {\n            \"role\": \"user\",",
+        "detail": "ai developer.python.RAG.automation.app.routers.ai",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "description": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "peekOfCode": "router = APIRouter(tags=[\"Automation Workflows\"])\nAPI_SECRET_TOKEN = os.getenv(\"WEBHOOK_SECRET_TOKEN\", \"studypulse_secret_key_123\")\n# Cache to enforce idempotency in memory (In production, use Redis or DB)\nPROCESSED_EVENT_IDS = set()\n@router.post(\"/study-plan\", response_model=StudyPlanResponse)\nasync def generate_study_plan(\n    payload: StudyPlanRequest,\n    x_webhook_secret: str = Header(None)\n):\n    # 1. Security Check: Validate Secret Header",
+        "detail": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "documentation": {}
+    },
+    {
+        "label": "API_SECRET_TOKEN",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "description": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "peekOfCode": "API_SECRET_TOKEN = os.getenv(\"WEBHOOK_SECRET_TOKEN\", \"studypulse_secret_key_123\")\n# Cache to enforce idempotency in memory (In production, use Redis or DB)\nPROCESSED_EVENT_IDS = set()\n@router.post(\"/study-plan\", response_model=StudyPlanResponse)\nasync def generate_study_plan(\n    payload: StudyPlanRequest,\n    x_webhook_secret: str = Header(None)\n):\n    # 1. Security Check: Validate Secret Header\n    if x_webhook_secret != API_SECRET_TOKEN:",
+        "detail": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "documentation": {}
+    },
+    {
+        "label": "PROCESSED_EVENT_IDS",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "description": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "peekOfCode": "PROCESSED_EVENT_IDS = set()\n@router.post(\"/study-plan\", response_model=StudyPlanResponse)\nasync def generate_study_plan(\n    payload: StudyPlanRequest,\n    x_webhook_secret: str = Header(None)\n):\n    # 1. Security Check: Validate Secret Header\n    if x_webhook_secret != API_SECRET_TOKEN:\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,",
+        "detail": "ai developer.python.RAG.automation.app.routers.study_plan",
+        "documentation": {}
+    },
+    {
+        "label": "get_llm_provider",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.automation.app.llm",
+        "description": "ai developer.python.RAG.automation.app.llm",
+        "peekOfCode": "def get_llm_provider() -> str:\n    return os.getenv(\"LLM_PROVIDER\", \"groq\").lower()\ndef is_rate_limit_error(exception: BaseException) -> bool:\n    \"\"\"Detect 429 / rate-limit errors across providers.\"\"\"\n    # Mistral\n    try:\n        from mistralai.client.errors.sdkerror import SDKError\n        if isinstance(exception, SDKError) and getattr(exception, \"status_code\", None) == 429:\n            return True\n    except ImportError:",
+        "detail": "ai developer.python.RAG.automation.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "is_rate_limit_error",
+        "kind": 2,
+        "importPath": "ai developer.python.RAG.automation.app.llm",
+        "description": "ai developer.python.RAG.automation.app.llm",
+        "peekOfCode": "def is_rate_limit_error(exception: BaseException) -> bool:\n    \"\"\"Detect 429 / rate-limit errors across providers.\"\"\"\n    # Mistral\n    try:\n        from mistralai.client.errors.sdkerror import SDKError\n        if isinstance(exception, SDKError) and getattr(exception, \"status_code\", None) == 429:\n            return True\n    except ImportError:\n        pass\n    # Groq / OpenAI style",
+        "detail": "ai developer.python.RAG.automation.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "rate_limit_retry",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.automation.app.llm",
+        "description": "ai developer.python.RAG.automation.app.llm",
+        "peekOfCode": "rate_limit_retry = retry(\n    retry=retry_if_exception(is_rate_limit_error),\n    stop=stop_after_attempt(5),\n    wait=wait_exponential(multiplier=2, min=3, max=30),\n    reraise=True,\n)\nasync def stream_chat_response(messages: List[Dict[str, str]]) -> AsyncGenerator[str, None]:\n    provider = get_llm_provider()\n    print(f\"Using LLM provider: {provider}\")\n    if provider == \"groq\":",
+        "detail": "ai developer.python.RAG.automation.app.llm",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ai developer.python.RAG.automation.app.main",
+        "description": "ai developer.python.RAG.automation.app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"AI Study Assistant API\",\n    description=\"FastAPI service supporting OpenAI and Mistral with streaming and JSON quiz generation.\"\n)\napp.include_router(ai.router)\napp.include_router(study_plan.router)\n@app.get(\"/\")\nasync def root():\n    return {\"status\": \"ok\", \"message\": \"AI Study Assistant Service is running.\"}",
+        "detail": "ai developer.python.RAG.automation.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "ChatRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.automation.app.schemas",
+        "description": "ai developer.python.RAG.automation.app.schemas",
+        "peekOfCode": "class ChatRequest(BaseModel):\n    content: str = Field(..., description=\"User message text\")\nclass QuizQuestion(BaseModel):\n    question: str\n    options: List[str]\n    correct_answer: str\n    explanation: str\nclass QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]",
+        "detail": "ai developer.python.RAG.automation.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizQuestion",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.automation.app.schemas",
+        "description": "ai developer.python.RAG.automation.app.schemas",
+        "peekOfCode": "class QuizQuestion(BaseModel):\n    question: str\n    options: List[str]\n    correct_answer: str\n    explanation: str\nclass QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]\nclass QuizRequest(BaseModel):\n    topic: str",
+        "detail": "ai developer.python.RAG.automation.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizOutput",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.automation.app.schemas",
+        "description": "ai developer.python.RAG.automation.app.schemas",
+        "peekOfCode": "class QuizOutput(BaseModel):\n    topic: str\n    questions: List[QuizQuestion]\nclass QuizRequest(BaseModel):\n    topic: str\n    num_questions: int = Field(default=3, ge=1, le=10)\n# study plan request and response payloads\nclass StudyPlanRequest(BaseModel):\n    event_id: str\n    student_email: EmailStr",
+        "detail": "ai developer.python.RAG.automation.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "QuizRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.automation.app.schemas",
+        "description": "ai developer.python.RAG.automation.app.schemas",
+        "peekOfCode": "class QuizRequest(BaseModel):\n    topic: str\n    num_questions: int = Field(default=3, ge=1, le=10)\n# study plan request and response payloads\nclass StudyPlanRequest(BaseModel):\n    event_id: str\n    student_email: EmailStr\n    topic: str\n    lesson_note: str\n    difficulty: str",
+        "detail": "ai developer.python.RAG.automation.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "StudyPlanRequest",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.automation.app.schemas",
+        "description": "ai developer.python.RAG.automation.app.schemas",
+        "peekOfCode": "class StudyPlanRequest(BaseModel):\n    event_id: str\n    student_email: EmailStr\n    topic: str\n    lesson_note: str\n    difficulty: str\nclass StudyPlanResponse(BaseModel):\n    status: str\n    student_email: str\n    topic: str",
+        "detail": "ai developer.python.RAG.automation.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "StudyPlanResponse",
+        "kind": 6,
+        "importPath": "ai developer.python.RAG.automation.app.schemas",
+        "description": "ai developer.python.RAG.automation.app.schemas",
+        "peekOfCode": "class StudyPlanResponse(BaseModel):\n    status: str\n    student_email: str\n    topic: str\n    study_plan: str",
+        "detail": "ai developer.python.RAG.automation.app.schemas",
         "documentation": {}
     },
     {

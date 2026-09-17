@@ -2,7 +2,7 @@ from fastapi import APIRouter, Header, HTTPException, status
 from pydantic import BaseModel, EmailStr
 import os
 import re
-from app.schemas import StudyPlanResponse, StudyPlanRequest
+from app.schemas import StudyPlanResponse, StudyPlanRequest 
 
 router = APIRouter(tags=["Automation Workflows"])
 
