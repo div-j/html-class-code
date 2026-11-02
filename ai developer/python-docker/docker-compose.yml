@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: fastapi_backend
+    networks:
+      - app-net
+    expose:
+      - "5000"
+
+  proxy:
+    image: nginx:latest
+    container_name: nginx_proxy
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - app-net
+    depends_on:
+      - web
+
+networks:
+  app-net:
+    driver: bridge
